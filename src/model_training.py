@@ -1,8 +1,8 @@
 import pandas as pd
 from pgmpy.models import BayesianNetwork
 from pgmpy.estimators import MaximumLikelihoodEstimator
-
-
+from pgmpy.inference import VariableElimination, BeliefPropagation,CausalInference
+from pgmpy.sampling import GibbsSampling
 
 data = pd.read_csv("./data/natural_disasters_extended.csv")
 
@@ -65,5 +65,27 @@ model.add_cpds(
 )
 
 # Comprobar si el modelo está correctamente definido
-assert model.check_model()
+assert model.check_model() #no muestra ningun mensaje de error por lo que esta correctamente definido
+
+# Realizar inferencia exacta (Variable Elimination)
+ve_inference = VariableElimination(model)
+marginal_probability_ve = ve_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
+
+# Realizar inferencia exacta (Belief Propagation)
+bp_inference = BeliefPropagation(model)
+marginal_probability_bp = bp_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
+
+#Realizar inferencia exacta (Causal inference)
+inference = CausalInference(model)
+marginal_probability_ca = inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
+
+print(marginal_probability_ve)
+print(marginal_probability_bp)
+print(marginal_probability_ca)
+
+# Realizar inferencia aproximada (Gibbs Sampling)
+#gs_inference = GibbsSampling(model)
+
+# Generar muestras con Gibbs Sampling
+#samples_gs = gs_inference.sample(start_state={'PreparednessTraining': 'Yes'}, size=1000)
 
