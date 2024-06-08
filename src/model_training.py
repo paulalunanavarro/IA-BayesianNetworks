@@ -4,7 +4,7 @@ from pgmpy.estimators import MaximumLikelihoodEstimator
 from pgmpy.inference import VariableElimination, BeliefPropagation,CausalInference, ApproxInference
 from pgmpy.sampling import BayesianModelSampling
 
-data = pd.read_csv("./data/natural_disasters_extended.csv")
+data = pd.read_csv("./data/natural_disasters_discretized_en.csv")
 
 # Definir la estructura de la red bow-tie con al menos 10 nodos
 model = BayesianNetwork() # se crea una instancia de la clase BayesianNetwork de pgmpy. Esta clase representa el modelo de red bayesiana que estamos construyendo.
@@ -67,7 +67,7 @@ model.add_cpds(
 assert model.check_model() #no muestra ningun mensaje de error por lo que esta correctamente definido
 
 #Algoritmos de inferencia exacta
-#¿Cuál es la probabilidad del riesgo del sistema si X1 ocurre?
+#¿Cuál es la probabilidad del riesgo del sistema si PreparednessTraining ocurre?
 # Variable Elimination
 ve_inference = VariableElimination(model)
 marginal_probability_ve = ve_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
