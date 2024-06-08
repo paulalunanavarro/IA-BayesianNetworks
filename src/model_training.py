@@ -1,15 +1,14 @@
 import pandas as pd
 from pgmpy.models import BayesianNetwork
 from pgmpy.estimators import MaximumLikelihoodEstimator
-from pgmpy.inference import VariableElimination, BeliefPropagation,CausalInference
-from pgmpy.sampling import GibbsSampling
+from pgmpy.inference import VariableElimination, BeliefPropagation,CausalInference, ApproxInference
+from pgmpy.sampling import BayesianModelSampling
 
 data = pd.read_csv("./data/natural_disasters_extended.csv")
 
-
-
 # Definir la estructura de la red bow-tie con al menos 10 nodos
 model = BayesianNetwork() # se crea una instancia de la clase BayesianNetwork de pgmpy. Esta clase representa el modelo de red bayesiana que estamos construyendo.
+
 
 model.add_edges_from([ #cada tupla representa una conexion entre dos nodos
     #el nodo central es DisasterType
@@ -67,25 +66,34 @@ model.add_cpds(
 # Comprobar si el modelo está correctamente definido
 assert model.check_model() #no muestra ningun mensaje de error por lo que esta correctamente definido
 
-# Realizar inferencia exacta (Variable Elimination)
+#Algoritmos de inferencia exacta
+#¿Cuál es la probabilidad del riesgo del sistema si X1 ocurre?
+# Variable Elimination
 ve_inference = VariableElimination(model)
 marginal_probability_ve = ve_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
 
-# Realizar inferencia exacta (Belief Propagation)
+# Belief Propagation
 bp_inference = BeliefPropagation(model)
 marginal_probability_bp = bp_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
 
-#Realizar inferencia exacta (Causal inference)
+# Causal inference
 inference = CausalInference(model)
 marginal_probability_ca = inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
 
-print(marginal_probability_ve)
-print(marginal_probability_bp)
-print(marginal_probability_ca)
+print("Variable Elimination:\n", marginal_probability_ve)
+print("Belief Propagation:\n", marginal_probability_bp)
+print("Causal Inference:\n", marginal_probability_ca)
 
-# Realizar inferencia aproximada (Gibbs Sampling)
-#gs_inference = GibbsSampling(model)
+#Algoritmos de inferencia aproximada
+# Sampling Importance Resampling (SIR)
+sampling = BayesianModelSampling(model)
+samples = sampling.likelihood_weighted_sample(size=1000, evidence=[('PreparednessTraining', 'Yes')])
+approximate_probability_sir = samples['DisasterType'].value_counts(normalize=True)
 
-# Generar muestras con Gibbs Sampling
-#samples_gs = gs_inference.sample(start_state={'PreparednessTraining': 'Yes'}, size=1000)
+print("Sampling Importance Resampling (SIR):\n", approximate_probability_sir)
 
+#ApproxInference
+aprox_inference = ApproxInference(model)
+marginal_probability_approx = aprox_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
+
+print("Approximate Inference:\n", marginal_probability_approx)
