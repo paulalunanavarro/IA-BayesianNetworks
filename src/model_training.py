@@ -94,6 +94,6 @@ print("Sampling Importance Resampling (SIR):\n", approximate_probability_sir)
 
 #ApproxInference
 aprox_inference = ApproxInference(model)
-marginal_probability_approx = aprox_inference.query(variables=['DisasterType'], evidence={'CommunityAwareness': 'Yes'})
+marginal_probability_approx = aprox_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
 
 print("Approximate Inference:\n", marginal_probability_approx)
