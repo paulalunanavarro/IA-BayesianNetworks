@@ -1,0 +1,1001 @@
+EventID,DisasterType,Date,Latitude,Longitude,Region,Personnel,MedicalSupplies,Shelters,FoodWater,ResponseTime,ResponseDuration,PeopleAffected,PeopleAssisted,InfrastructureCondition,PreparednessTraining,CommunityAwareness,AgenciesInvolved,CoordinationScore,CommunicationScore,EconomicDamage,Casualties,LongTermImpact
+1,Flood,2010-01-01,28.26223748853308,-103.6885015656205,New Orleans,330,155,21,1279,medium,long,medium,low,Poor,No,Yes,high,medium,low,medium,high,6
+2,Tornado,2010-01-06,40.247551376908895,-106.85077179664758,New Orleans,122,696,79,1323,slow,long,high,high,Good,No,No,high,medium,high,medium,medium,5
+3,Earthquake,2010-01-11,45.55786186618836,-99.0610678640066,Alaska,83,123,56,669,slow,long,high,high,Poor,No,No,high,high,medium,high,medium,7
+4,Earthquake,2010-01-17,43.26681723736787,-109.01036870380992,California,267,952,92,583,fast,long,medium,low,Fair,No,Yes,medium,medium,high,medium,high,7
+5,Tornado,2010-01-22,46.590614046860566,-110.08219832585075,Alaska,349,542,88,1688,slow,long,medium,high,Fair,Yes,Yes,high,high,medium,low,medium,5
+6,Tornado,2010-01-28,44.9043902283504,-101.99860099175126,Phoenix,168,232,82,1945,medium,long,medium,low,Fair,No,No,medium,low,medium,high,high,7
+7,Flood,2010-02-02,37.0323119240407,-95.69503616019747,California,214,997,85,1448,slow,long,low,medium,Fair,No,Yes,medium,high,high,medium,low,6
+8,Earthquake,2010-02-08,44.88110149804433,-74.57970273217217,Phoenix,245,912,40,773,fast,long,low,medium,Poor,No,No,high,high,high,high,medium,7
+9,Tornado,2010-02-13,42.7020712318769,-96.43952274123164,New Orleans,399,451,25,354,slow,long,low,high,Good,Yes,Yes,high,high,medium,high,medium,7
+10,Hurricane,2010-02-19,49.5030944473873,-121.29844622296696,New Orleans,170,644,36,782,slow,long,medium,high,Poor,No,No,low,high,medium,low,low,8
+11,Hurricane,2010-02-24,45.88490636581993,-117.56025694843032,Austin,125,509,58,1723,slow,long,high,medium,Fair,No,Yes,high,high,low,low,medium,9
+12,Earthquake,2010-03-02,31.56458115494986,-88.15730556190599,California,315,642,69,1178,medium,short,high,medium,Poor,No,No,high,high,high,high,high,6
+13,Earthquake,2010-03-07,36.31097598690745,-104.84440898787513,California,413,884,67,824,medium,short,low,high,Fair,No,Yes,high,high,high,low,high,9
+14,Tornado,2010-03-13,33.739235307391326,-98.49521567947066,New Orleans,482,431,12,803,medium,short,high,high,Good,No,No,high,high,medium,high,medium,9
+15,Hurricane,2010-03-18,42.18594518087114,-78.48371079108745,Phoenix,234,353,38,1114,medium,medium,medium,high,Fair,Yes,No,medium,medium,high,low,high,7
+16,Tornado,2010-03-24,35.05043868706193,-123.84442249355784,California,356,724,73,937,medium,long,medium,high,Poor,No,Yes,medium,medium,high,high,high,6
+17,Flood,2010-03-29,38.22879477666507,-103.4908820498131,Alaska,233,779,35,1529,medium,short,high,high,Poor,No,No,high,high,high,low,high,8
+18,Flood,2010-04-04,48.74060652028825,-71.8656477300659,Austin,370,792,76,1627,slow,long,low,medium,Poor,No,Yes,medium,high,low,medium,high,9
+19,Tornado,2010-04-09,27.989796661450832,-122.92884424855365,Austin,421,890,25,1627,fast,long,high,low,Poor,No,No,high,high,medium,high,low,8
+20,Hurricane,2010-04-15,34.10254685272013,-109.22570915011237,Houston,70,182,11,1862,fast,long,high,medium,Fair,No,No,medium,low,medium,medium,high,6
+21,Hurricane,2010-04-20,34.34761549742383,-118.7308667338978,Houston,432,998,36,683,fast,short,medium,low,Fair,Yes,No,high,medium,high,low,high,6
+22,Earthquake,2010-04-26,44.08573288884824,-77.06814747543876,California,127,597,47,385,fast,medium,high,high,Poor,No,Yes,medium,medium,high,high,medium,9
+23,Tornado,2010-05-01,32.411540641015584,-81.84768001284341,Alaska,127,162,65,1156,medium,medium,high,low,Good,No,No,medium,high,high,low,low,7
+24,Hurricane,2010-05-07,31.185098714100924,-88.77719594189492,Austin,316,957,72,1721,medium,long,low,high,Good,No,No,high,high,medium,high,high,8
+25,Flood,2010-05-12,44.950429666711656,-92.23572138983036,California,367,840,81,1527,medium,long,low,low,Poor,Yes,No,medium,medium,medium,high,medium,7
+26,Flood,2010-05-18,49.53010769974684,-71.37108492173331,New Orleans,263,603,67,1504,medium,long,high,high,Poor,Yes,No,medium,low,medium,low,high,5
+27,Flood,2010-05-23,40.02614472437129,-100.2285652793868,Austin,248,751,36,1995,slow,long,low,high,Fair,Yes,Yes,low,high,high,high,high,7
+28,Flood,2010-05-29,33.58388312270314,-72.75946222663862,Houston,386,456,76,418,fast,short,high,medium,Good,Yes,Yes,medium,medium,high,high,high,8
+29,Earthquake,2010-06-03,30.114076069475075,-96.38629827481084,Houston,360,707,16,774,medium,long,high,high,Fair,Yes,Yes,high,low,low,low,low,7
+30,Hurricane,2010-06-09,35.33827252220528,-83.98862527259833,Houston,477,118,37,1406,medium,medium,high,high,Good,Yes,Yes,medium,medium,high,high,low,9
+31,Tornado,2010-06-14,33.762640100729506,-89.91960838421227,Phoenix,466,329,20,1966,medium,short,high,medium,Fair,Yes,Yes,medium,high,medium,low,high,6
+32,Earthquake,2010-06-19,45.32968558023392,-95.30222131537003,Phoenix,199,341,35,542,fast,long,high,low,Poor,No,No,high,high,high,high,low,7
+33,Hurricane,2010-06-25,33.792728779401095,-76.75406904986973,New Orleans,54,728,14,436,medium,long,medium,low,Poor,No,Yes,medium,high,medium,high,high,5
+34,Tornado,2010-06-30,37.58552484589097,-120.8952134638231,California,499,834,56,1283,fast,long,low,medium,Fair,No,Yes,high,medium,high,high,high,7
+35,Flood,2010-07-06,27.996214050252043,-74.1500498742214,Houston,66,305,86,729,slow,medium,high,medium,Good,No,No,medium,medium,high,high,medium,6
+36,Flood,2010-07-11,48.221828731321125,-72.91011375118734,California,453,281,38,936,slow,long,medium,high,Good,No,No,high,low,medium,low,low,7
+37,Tornado,2010-07-17,35.26330920835578,-83.57440090558187,Alaska,236,996,36,269,medium,short,low,high,Poor,No,No,medium,low,low,high,medium,9
+38,Flood,2010-07-22,32.750508052213455,-89.23117000300796,New Orleans,398,427,64,1604,medium,long,low,high,Good,Yes,No,high,medium,high,high,high,9
+39,Flood,2010-07-28,36.56122836381402,-83.91551508692456,California,93,236,80,1781,medium,long,medium,low,Good,No,Yes,medium,medium,high,high,high,9
+40,Tornado,2010-08-02,34.88806903547773,-77.11330900776477,Houston,274,399,18,1249,medium,short,high,high,Poor,No,No,high,low,medium,medium,medium,7
+41,Hurricane,2010-08-08,35.821462220425616,-106.62307069647552,California,99,322,88,1035,medium,medium,medium,medium,Poor,No,Yes,high,low,high,low,medium,7
+42,Hurricane,2010-08-13,36.90936682560836,-100.32576762897476,Phoenix,319,572,33,1835,medium,long,high,high,Fair,Yes,Yes,high,medium,low,low,medium,7
+43,Hurricane,2010-08-19,32.10723517725114,-123.10555000735005,Phoenix,354,909,72,749,fast,medium,low,high,Fair,Yes,No,medium,medium,medium,high,medium,8
+44,Flood,2010-08-24,35.14886153544695,-75.95055325353059,Austin,268,964,40,437,slow,long,low,low,Fair,Yes,Yes,low,low,medium,high,low,6
+45,Hurricane,2010-08-30,46.39560700012646,-117.3401314143868,New Orleans,100,263,12,702,medium,long,high,high,Poor,No,No,medium,high,medium,medium,low,6
+46,Earthquake,2010-09-04,28.65707370137067,-74.29765830399636,Austin,231,488,25,735,medium,short,medium,high,Poor,Yes,Yes,medium,high,high,medium,high,5
+47,Tornado,2010-09-10,32.89667917942651,-108.20124811347016,Phoenix,59,599,85,686,medium,medium,high,low,Poor,No,Yes,high,medium,medium,high,low,9
+48,Hurricane,2010-09-15,45.37692334213776,-110.09782205414676,Alaska,244,351,22,1422,slow,medium,low,high,Good,Yes,Yes,high,medium,high,medium,high,9
+49,Flood,2010-09-21,45.16132024066777,-84.88356737786832,Alaska,335,979,66,717,medium,long,high,high,Fair,Yes,Yes,low,medium,high,high,low,9
+50,Hurricane,2010-09-26,43.093998087224485,-85.13708610645074,California,106,366,94,850,slow,short,low,low,Fair,Yes,No,medium,high,medium,high,medium,5
+51,Hurricane,2010-10-02,45.98083177289227,-118.81828882968752,Phoenix,123,345,22,947,fast,medium,medium,medium,Poor,No,Yes,medium,high,medium,low,low,7
+52,Tornado,2010-10-07,48.720091779225285,-116.36890165545172,Phoenix,231,199,63,1719,medium,long,high,high,Good,No,Yes,high,high,high,high,low,6
+53,Earthquake,2010-10-13,38.11898242313936,-109.31686872913023,California,473,249,14,461,slow,long,high,high,Poor,No,Yes,high,low,high,low,high,8
+54,Hurricane,2010-10-18,44.28592428615109,-121.66537965738168,Houston,456,366,43,1437,slow,medium,low,high,Poor,No,Yes,low,medium,medium,high,high,9
+55,Hurricane,2010-10-24,25.0912332448365,-85.12578626723479,Alaska,485,224,66,286,slow,long,low,high,Good,Yes,No,medium,medium,low,high,low,9
+56,Earthquake,2010-10-29,32.27082964157778,-86.3525802092015,Alaska,345,638,88,378,slow,long,high,low,Fair,No,No,medium,low,high,medium,medium,6
+57,Tornado,2010-11-04,27.322168764909705,-94.79324376414732,New Orleans,407,388,33,1036,medium,long,high,low,Fair,Yes,Yes,high,medium,high,high,high,6
+58,Hurricane,2010-11-09,45.664263743113565,-109.88672963820864,Houston,353,133,52,1657,medium,medium,low,high,Good,Yes,No,high,medium,low,low,high,8
+59,Flood,2010-11-15,47.583224764119066,-90.66292595662728,Houston,191,662,78,1908,slow,medium,high,medium,Good,No,Yes,high,high,low,low,low,6
+60,Flood,2010-11-20,33.60998385462665,-97.47216187884376,Phoenix,56,210,87,987,medium,short,high,high,Poor,No,Yes,low,low,low,high,high,5
+61,Hurricane,2010-11-26,42.38666184581318,-116.20710255990076,Austin,68,717,78,412,medium,long,high,medium,Good,Yes,Yes,medium,high,high,high,high,7
+62,Earthquake,2010-12-01,35.96161462758356,-96.39564483208667,Alaska,304,786,10,984,medium,short,medium,low,Good,Yes,No,medium,high,low,low,high,6
+63,Flood,2010-12-06,34.962462289167654,-107.94080953040596,New Orleans,431,455,84,232,fast,long,high,medium,Good,No,No,high,high,medium,high,high,6
+64,Earthquake,2010-12-12,42.203093198429976,-94.88735303065718,Austin,462,317,75,1817,medium,short,high,medium,Poor,No,Yes,high,low,high,high,low,7
+65,Earthquake,2010-12-17,40.429768512403285,-119.65981755540707,New Orleans,169,890,79,1304,medium,medium,high,high,Poor,Yes,Yes,high,medium,high,high,high,7
+66,Earthquake,2010-12-23,40.27763365837609,-73.40121793543551,California,342,358,80,805,slow,long,medium,high,Fair,No,Yes,medium,medium,medium,high,low,6
+67,Earthquake,2010-12-28,47.73808839984441,-114.7942502254312,New Orleans,439,836,88,1092,fast,short,high,high,Good,No,Yes,medium,medium,low,high,high,5
+68,Earthquake,2011-01-03,34.11946155438621,-86.43297154903775,New Orleans,383,361,95,912,fast,long,low,high,Fair,Yes,No,medium,medium,high,low,medium,7
+69,Earthquake,2011-01-08,37.31524763397202,-89.05881050050493,Houston,118,659,29,1620,slow,long,high,medium,Good,Yes,No,medium,medium,low,high,low,9
+70,Flood,2011-01-14,25.743343981897752,-87.78524477567466,Houston,133,317,51,1894,slow,long,medium,high,Fair,No,No,low,high,low,medium,medium,9
+71,Hurricane,2011-01-19,34.2508719119556,-92.02610888623464,Austin,473,222,75,1874,slow,long,high,medium,Good,No,Yes,medium,medium,medium,low,high,5
+72,Hurricane,2011-01-25,43.85354817555403,-81.50188180827257,Houston,466,635,73,311,fast,short,low,low,Poor,Yes,No,high,low,high,high,medium,7
+73,Tornado,2011-01-30,46.761192376884544,-90.55414825795444,California,301,923,53,1062,fast,long,low,medium,Fair,Yes,Yes,medium,low,low,medium,medium,7
+74,Tornado,2011-02-05,29.07178595188009,-99.0461587618817,Houston,413,478,90,1880,medium,long,high,high,Fair,No,Yes,medium,medium,medium,high,low,9
+75,Flood,2011-02-10,26.69781794367426,-78.21176024697213,Alaska,282,288,91,1309,slow,medium,high,medium,Good,Yes,Yes,high,medium,medium,low,high,6
+76,Hurricane,2011-02-16,25.024865342363636,-81.90192830761158,New Orleans,341,225,81,1788,fast,long,high,high,Fair,Yes,No,high,medium,medium,high,low,7
+77,Hurricane,2011-02-21,31.27915804531589,-71.95253344711597,Phoenix,469,122,79,1153,fast,long,high,medium,Good,Yes,No,high,high,high,low,medium,7
+78,Flood,2011-02-27,34.548223191263695,-88.55074334604197,California,479,277,26,669,slow,medium,high,high,Fair,No,No,high,high,high,medium,medium,6
+79,Flood,2011-03-04,38.44574032485818,-93.63642445016534,Phoenix,409,901,84,331,slow,medium,medium,low,Fair,Yes,No,high,high,high,medium,medium,5
+80,Hurricane,2011-03-10,33.289190401289474,-89.80014872949187,Alaska,283,862,26,877,slow,long,high,low,Fair,Yes,Yes,high,high,high,medium,high,7
+81,Tornado,2011-03-15,37.540764123498256,-93.13470798761908,New Orleans,340,490,54,1778,slow,long,high,high,Fair,Yes,Yes,high,medium,medium,low,high,5
+82,Earthquake,2011-03-21,38.10943684946612,-70.83612694176492,Houston,205,402,95,1274,medium,long,medium,medium,Fair,No,No,medium,high,high,low,medium,5
+83,Flood,2011-03-26,27.861207803798575,-88.17380400672758,Houston,315,224,77,1296,slow,short,high,medium,Poor,No,Yes,medium,medium,high,high,medium,6
+84,Flood,2011-04-01,39.711555390881536,-84.60377242776644,Houston,117,129,74,232,slow,long,high,medium,Good,Yes,No,high,high,high,low,medium,8
+85,Hurricane,2011-04-06,29.52590394808789,-96.6563093096209,New Orleans,138,613,97,1418,slow,long,medium,medium,Fair,No,No,low,high,high,high,high,6
+86,Flood,2011-04-12,40.535928550634125,-89.4241632000338,Austin,166,968,92,1810,slow,short,high,high,Poor,No,No,medium,high,medium,low,low,7
+87,Hurricane,2011-04-17,27.764177597896385,-122.66757777897446,Alaska,287,898,42,1146,slow,short,high,low,Good,Yes,Yes,medium,high,medium,high,high,5
+88,Earthquake,2011-04-23,33.44399789728754,-76.83012495842904,Houston,81,362,20,1438,slow,short,low,medium,Poor,No,No,high,high,high,high,low,8
+89,Earthquake,2011-04-28,28.991319640350365,-94.63291380202232,Alaska,113,487,36,1698,slow,medium,medium,high,Fair,Yes,Yes,medium,medium,medium,high,low,8
+90,Flood,2011-05-04,45.82604606681625,-79.90750931730426,New Orleans,403,266,19,528,medium,medium,medium,high,Poor,Yes,No,medium,high,high,low,medium,6
+91,Hurricane,2011-05-09,26.90738217730193,-87.06180778316805,Alaska,166,411,90,804,slow,long,medium,high,Good,Yes,No,high,low,low,low,medium,9
+92,Hurricane,2011-05-14,43.23194763481398,-74.24584455527774,Houston,114,862,58,580,medium,medium,low,medium,Good,Yes,No,medium,high,high,high,low,7
+93,Earthquake,2011-05-20,31.45943378248367,-103.85172674930315,Austin,456,298,11,897,medium,medium,high,high,Good,No,No,high,high,medium,medium,medium,6
+94,Earthquake,2011-05-25,38.78962228962873,-81.59072787959659,Houston,314,702,66,707,medium,long,medium,high,Fair,Yes,No,high,high,high,high,medium,7
+95,Tornado,2011-05-31,26.45575002328767,-70.38402126647944,Alaska,441,554,21,1590,fast,medium,low,low,Fair,Yes,No,medium,high,low,high,low,9
+96,Earthquake,2011-06-05,37.9823819782137,-81.40314117389525,Austin,147,588,77,1911,medium,medium,high,medium,Poor,No,Yes,medium,low,high,low,low,8
+97,Earthquake,2011-06-11,38.990885883309616,-122.7286518581086,Houston,68,855,91,346,medium,medium,medium,medium,Good,No,No,high,medium,high,medium,high,9
+98,Earthquake,2011-06-16,29.73079862304552,-105.10774296677027,New Orleans,305,749,72,662,fast,long,high,high,Fair,Yes,Yes,high,medium,high,high,low,7
+99,Tornado,2011-06-22,37.45808862595224,-103.18162422691732,New Orleans,420,719,80,1171,medium,long,low,medium,Fair,No,Yes,medium,high,high,high,low,7
+100,Earthquake,2011-06-27,43.69653600874516,-116.4296795466422,Alaska,233,879,65,1911,medium,long,medium,medium,Poor,Yes,Yes,medium,medium,low,low,high,9
+101,Earthquake,2011-07-03,43.18740903302658,-80.0604393534772,Houston,395,429,87,505,medium,long,medium,low,Good,No,Yes,high,high,high,medium,low,8
+102,Flood,2011-07-08,37.74305489935449,-80.09916176260276,Austin,342,622,62,1679,medium,medium,high,high,Good,Yes,No,medium,high,medium,high,high,8
+103,Hurricane,2011-07-14,33.267109916268424,-70.31952992986281,Alaska,110,723,21,949,slow,medium,medium,low,Fair,Yes,No,low,low,medium,low,medium,6
+104,Hurricane,2011-07-19,48.16711190420021,-75.41071255738784,Phoenix,309,761,21,1438,slow,long,high,medium,Good,Yes,No,medium,medium,high,medium,high,7
+105,Earthquake,2011-07-25,43.75504004533563,-120.6978362883771,Houston,346,475,10,315,fast,long,high,low,Fair,Yes,Yes,high,low,medium,high,high,5
+106,Flood,2011-07-30,25.86148381823775,-73.37513359325024,California,101,634,59,1029,medium,long,high,medium,Poor,Yes,Yes,medium,high,low,high,medium,7
+107,Hurricane,2011-08-05,44.7903683530212,-71.21725894375498,New Orleans,149,558,25,572,slow,long,high,high,Fair,Yes,No,low,medium,medium,medium,medium,8
+108,Hurricane,2011-08-10,47.99422844349651,-74.45543741215967,Phoenix,342,987,37,1816,slow,long,high,medium,Fair,No,No,medium,medium,medium,high,high,8
+109,Hurricane,2011-08-16,39.47875741741595,-83.78461190992971,Phoenix,60,807,40,1464,medium,long,high,high,Fair,Yes,Yes,high,high,medium,high,high,5
+110,Flood,2011-08-21,36.98139121120592,-76.22611222894872,New Orleans,300,527,28,1451,slow,long,low,high,Good,Yes,Yes,high,low,medium,low,high,7
+111,Earthquake,2011-08-27,26.285431312618336,-81.65323739256642,Alaska,132,114,40,1042,slow,long,high,medium,Good,Yes,No,low,high,high,low,low,9
+112,Earthquake,2011-09-01,32.32554224443841,-75.6648784711675,Phoenix,394,639,88,1066,slow,long,low,low,Poor,No,No,high,high,low,low,high,6
+113,Flood,2011-09-07,41.12526744962098,-71.26298488584695,California,199,328,12,1983,medium,long,medium,high,Poor,No,No,medium,low,high,medium,high,5
+114,Flood,2011-09-12,49.57904675120808,-75.57198264475409,New Orleans,292,902,59,1444,fast,short,medium,medium,Good,No,Yes,high,medium,high,high,medium,8
+115,Hurricane,2011-09-18,38.34236093693218,-114.56887654772834,Austin,101,788,78,856,fast,short,high,medium,Good,Yes,No,medium,medium,medium,high,medium,6
+116,Earthquake,2011-09-23,26.107983716412416,-92.76912321828635,Phoenix,180,410,90,1130,slow,medium,high,medium,Fair,No,Yes,medium,high,high,medium,high,8
+117,Earthquake,2011-09-29,38.538623377474174,-110.2202838891496,Austin,368,316,61,398,medium,long,low,high,Poor,Yes,Yes,medium,medium,low,high,high,8
+118,Earthquake,2011-10-04,31.254970387063533,-90.53566558677068,Austin,63,174,41,1838,medium,medium,high,high,Good,No,Yes,high,medium,medium,low,high,7
+119,Flood,2011-10-10,49.86754049867727,-113.341377248479,Austin,393,577,48,524,medium,long,high,low,Poor,Yes,No,high,medium,medium,medium,high,6
+120,Earthquake,2011-10-15,35.834147120253945,-124.16664266502568,Phoenix,285,813,98,1224,slow,long,medium,low,Poor,No,Yes,medium,high,medium,medium,medium,9
+121,Earthquake,2011-10-21,39.76117201695131,-118.1723323115412,California,126,112,13,535,medium,medium,high,medium,Good,No,No,low,medium,high,high,low,7
+122,Tornado,2011-10-26,45.01971772440399,-108.60687120467836,Houston,112,167,91,333,slow,long,low,high,Poor,No,Yes,medium,high,high,medium,high,6
+123,Flood,2011-10-31,28.16213043142244,-85.04559803297721,California,426,556,69,334,medium,short,high,high,Fair,No,No,medium,medium,high,high,low,9
+124,Tornado,2011-11-06,38.76981718303267,-122.2231159437478,California,58,797,57,1618,slow,long,medium,medium,Good,No,Yes,high,low,medium,low,medium,9
+125,Earthquake,2011-11-11,25.37274924018954,-77.18255383261663,Austin,105,641,17,966,medium,medium,low,high,Poor,No,Yes,low,medium,medium,medium,low,5
+126,Flood,2011-11-17,31.844093675066997,-74.7167642674338,California,261,404,40,923,slow,short,high,high,Poor,Yes,Yes,high,high,high,high,low,7
+127,Flood,2011-11-22,31.15384002231732,-102.2699314232017,New Orleans,420,805,38,1216,fast,short,medium,high,Poor,No,Yes,medium,high,medium,high,high,5
+128,Hurricane,2011-11-28,28.504028676819367,-90.29427158742509,Alaska,338,761,70,1391,medium,medium,medium,medium,Fair,No,Yes,high,medium,medium,high,low,7
+129,Earthquake,2011-12-03,36.84163956432754,-122.9225205722973,New Orleans,252,639,28,1494,slow,medium,high,high,Good,Yes,No,high,low,medium,high,low,7
+130,Hurricane,2011-12-09,35.975758373358886,-120.59167723561016,New Orleans,205,944,33,1339,slow,medium,high,high,Good,No,Yes,medium,low,low,high,high,6
+131,Earthquake,2011-12-14,45.40040145267145,-79.28543242634224,New Orleans,268,113,31,1820,medium,long,high,low,Fair,Yes,Yes,medium,low,high,high,medium,8
+132,Hurricane,2011-12-20,25.33999369090876,-75.84690654727908,New Orleans,398,464,36,683,medium,medium,medium,low,Poor,Yes,Yes,medium,high,medium,high,low,8
+133,Hurricane,2011-12-25,25.53522246548501,-83.64858561884765,New Orleans,302,671,47,1330,slow,medium,low,high,Poor,No,No,high,high,medium,high,low,7
+134,Tornado,2011-12-31,43.62902040072552,-106.8208360622418,California,390,756,68,1745,slow,short,high,low,Good,No,No,high,high,medium,medium,high,7
+135,Tornado,2012-01-05,43.02224016312746,-88.72625754247979,New Orleans,56,213,58,262,medium,medium,low,low,Good,No,No,high,low,medium,medium,high,9
+136,Hurricane,2012-01-11,37.54812234101752,-71.65151088188563,Alaska,352,633,81,1964,fast,short,high,high,Good,Yes,No,high,low,medium,medium,medium,6
+137,Earthquake,2012-01-16,34.37253286029873,-103.44963254081703,Phoenix,99,509,34,763,slow,long,high,medium,Good,No,No,medium,medium,medium,high,low,9
+138,Earthquake,2012-01-22,29.898329375872464,-104.09122613367312,Phoenix,244,995,52,1486,medium,long,high,high,Poor,Yes,No,high,medium,low,high,high,6
+139,Hurricane,2012-01-27,41.16755630924751,-78.19965816491997,Houston,392,743,67,1039,medium,long,high,high,Good,Yes,Yes,high,high,low,medium,low,6
+140,Earthquake,2012-02-02,35.122539675069675,-123.1116865883674,Houston,261,580,17,932,medium,short,low,high,Good,Yes,No,low,high,medium,high,high,5
+141,Tornado,2012-02-07,35.56681451648964,-105.60704916219184,New Orleans,231,407,70,832,slow,long,low,high,Poor,Yes,No,medium,high,medium,high,high,8
+142,Tornado,2012-02-13,35.19939895634386,-106.85004066142932,Alaska,247,629,45,1383,fast,long,high,high,Poor,Yes,Yes,high,low,high,high,high,6
+143,Flood,2012-02-18,27.668361973709217,-84.38219230690726,Houston,209,955,86,1721,slow,long,high,high,Good,Yes,No,low,medium,low,medium,high,8
+144,Tornado,2012-02-24,40.74490983323366,-76.73081954672276,Austin,110,144,38,1388,medium,medium,high,high,Poor,Yes,No,medium,low,medium,high,low,9
+145,Earthquake,2012-02-29,33.15643230475048,-75.94963133533022,Austin,289,290,37,1774,slow,long,high,medium,Fair,Yes,No,medium,low,medium,medium,high,6
+146,Flood,2012-03-06,37.85058378241495,-121.186794363351,Alaska,211,628,45,857,slow,medium,medium,low,Poor,Yes,Yes,high,low,medium,medium,low,6
+147,Hurricane,2012-03-11,45.29574400721381,-84.37659418001988,Phoenix,236,730,83,1241,slow,long,high,high,Poor,Yes,Yes,high,medium,high,medium,medium,7
+148,Earthquake,2012-03-17,28.214662168727177,-117.41830739340496,California,273,393,93,1991,fast,long,high,medium,Good,Yes,No,medium,high,medium,low,high,6
+149,Hurricane,2012-03-22,38.76181038457299,-77.19050725502372,New Orleans,184,599,14,694,medium,long,high,low,Fair,No,Yes,medium,high,high,high,medium,7
+150,Earthquake,2012-03-28,30.316839317792898,-119.7945180521274,Houston,271,409,12,349,fast,long,high,medium,Poor,No,No,low,high,high,low,low,8
+151,Earthquake,2012-04-02,45.74148347158767,-113.46732018164538,New Orleans,73,598,76,1530,fast,long,high,medium,Fair,No,Yes,high,high,high,medium,medium,7
+152,Earthquake,2012-04-08,29.80141367664737,-95.19267434082836,Alaska,366,626,20,1442,medium,long,low,low,Fair,Yes,Yes,high,high,low,high,medium,8
+153,Hurricane,2012-04-13,33.98361531147678,-96.38780339921408,Houston,289,781,70,904,slow,short,high,medium,Good,Yes,No,medium,high,high,low,medium,7
+154,Flood,2012-04-18,33.96496856343104,-110.7404958707546,Alaska,418,534,64,354,medium,medium,medium,high,Poor,No,Yes,medium,high,medium,low,high,7
+155,Flood,2012-04-24,48.7951261125813,-107.20982690943823,Alaska,351,853,98,1431,slow,long,high,low,Fair,No,No,low,low,medium,medium,low,6
+156,Flood,2012-04-29,48.26344892105416,-115.8933362654719,California,121,574,37,530,slow,medium,high,low,Fair,Yes,No,medium,high,medium,low,low,5
+157,Hurricane,2012-05-05,36.756992992486985,-72.15315350468481,Austin,129,919,37,1258,medium,long,high,high,Poor,Yes,No,high,medium,low,medium,low,9
+158,Tornado,2012-05-10,36.89050922763006,-123.97981200302236,Houston,212,823,82,564,medium,long,high,medium,Poor,No,No,medium,medium,medium,high,high,9
+159,Tornado,2012-05-16,32.998862073152715,-104.16158586983455,Austin,130,633,79,1179,fast,long,high,high,Good,No,Yes,low,low,low,high,high,7
+160,Flood,2012-05-21,27.79186003595552,-90.45436112917628,Houston,51,385,95,1833,slow,long,medium,medium,Good,No,Yes,high,high,medium,medium,low,7
+161,Hurricane,2012-05-27,45.98943359737687,-104.0640364896386,Alaska,63,581,71,531,slow,long,medium,high,Fair,No,No,high,high,high,low,high,6
+162,Hurricane,2012-06-01,30.480171398143312,-117.74668299543518,New Orleans,427,304,70,1788,medium,short,high,low,Fair,Yes,No,high,medium,high,high,medium,7
+163,Earthquake,2012-06-07,47.56371159042375,-99.75576750995631,New Orleans,492,335,17,1075,medium,medium,high,high,Good,Yes,No,low,high,high,medium,medium,5
+164,Tornado,2012-06-12,32.694695081364856,-98.6859512227247,Austin,285,863,59,1552,medium,long,high,medium,Good,Yes,No,low,high,high,high,high,9
+165,Hurricane,2012-06-18,27.7303614310226,-87.53282111085082,Phoenix,75,869,94,974,fast,medium,high,high,Fair,Yes,Yes,medium,medium,high,high,high,9
+166,Flood,2012-06-23,25.47083163049461,-98.6827000203408,Houston,195,534,57,456,medium,long,high,medium,Poor,Yes,No,medium,medium,medium,medium,medium,6
+167,Earthquake,2012-06-29,46.44068714051372,-94.50866495131308,Austin,452,979,44,1441,slow,long,high,medium,Fair,Yes,Yes,high,low,medium,low,high,8
+168,Flood,2012-07-04,35.84657870071799,-118.62123328738146,Alaska,187,299,93,1273,fast,short,medium,medium,Fair,No,Yes,high,high,low,high,high,7
+169,Flood,2012-07-10,31.43902651413576,-99.8847973115588,New Orleans,235,585,69,1697,medium,long,low,high,Good,Yes,Yes,high,high,low,medium,low,5
+170,Flood,2012-07-15,33.33587666272948,-105.26731749575468,Austin,104,881,35,1579,slow,long,medium,medium,Good,Yes,No,low,high,high,medium,low,8
+171,Hurricane,2012-07-21,31.61626769111592,-108.08161221458542,Phoenix,450,412,26,474,slow,medium,medium,high,Poor,Yes,Yes,medium,high,high,medium,medium,6
+172,Flood,2012-07-26,48.11687695247016,-88.84940544674407,Austin,103,933,87,224,slow,medium,high,medium,Fair,Yes,No,high,high,medium,high,high,5
+173,Earthquake,2012-08-01,42.680520748719374,-72.65276152283829,Houston,153,127,17,335,slow,short,high,medium,Good,No,Yes,low,medium,high,low,low,5
+174,Hurricane,2012-08-06,32.92432855235777,-112.61000739147322,Phoenix,350,393,56,1080,medium,long,high,medium,Good,No,Yes,high,medium,medium,high,low,5
+175,Hurricane,2012-08-12,34.394926306776696,-72.80025451857634,Houston,93,710,89,553,slow,medium,high,high,Poor,No,Yes,medium,medium,low,high,low,6
+176,Flood,2012-08-17,44.57687550635255,-79.65451543066577,Alaska,118,182,43,678,slow,medium,high,high,Poor,No,No,high,high,medium,high,low,6
+177,Tornado,2012-08-23,42.79582375807422,-99.12656354230704,New Orleans,246,127,73,907,fast,medium,high,medium,Good,No,No,high,medium,medium,low,low,8
+178,Earthquake,2012-08-28,36.5188323489236,-123.66677908958094,Austin,393,856,77,713,slow,short,medium,high,Good,No,No,medium,medium,medium,medium,low,5
+179,Flood,2012-09-03,43.43422679307204,-92.81649136034171,California,293,353,54,1787,medium,long,high,high,Good,No,Yes,medium,high,high,high,low,5
+180,Tornado,2012-09-08,28.800067633954495,-122.44433911676164,Phoenix,369,907,20,1479,slow,long,low,medium,Poor,Yes,No,high,medium,low,medium,high,8
+181,Earthquake,2012-09-14,40.55783775465778,-86.11144954150058,New Orleans,380,381,11,695,medium,long,high,high,Poor,Yes,Yes,medium,high,high,low,low,8
+182,Tornado,2012-09-19,49.713532672802025,-90.27328702603072,California,162,999,68,699,slow,medium,medium,high,Poor,Yes,Yes,medium,high,high,high,high,7
+183,Tornado,2012-09-24,27.537548131985474,-71.36180316750766,Alaska,372,864,52,455,fast,long,medium,high,Poor,No,Yes,high,high,medium,low,high,9
+184,Tornado,2012-09-30,27.244191344573576,-91.97390246390454,New Orleans,372,907,59,1935,slow,long,high,medium,Fair,No,No,medium,low,high,high,high,5
+185,Flood,2012-10-05,38.75827599440625,-87.89920428078538,Houston,450,175,94,758,slow,short,high,medium,Fair,Yes,Yes,medium,medium,low,low,low,7
+186,Flood,2012-10-11,30.4921007090142,-107.54529301589317,Austin,293,506,14,524,medium,medium,high,high,Fair,Yes,No,low,medium,high,low,low,7
+187,Flood,2012-10-16,47.12988204989887,-73.83785024214318,Austin,128,986,22,620,slow,medium,high,high,Good,Yes,Yes,medium,medium,medium,low,medium,9
+188,Earthquake,2012-10-22,41.268406592650734,-80.05865696337564,Austin,290,688,73,937,medium,medium,medium,medium,Good,No,No,medium,medium,low,high,low,6
+189,Flood,2012-10-27,49.52996000271541,-108.79628159773011,California,344,775,38,567,slow,long,medium,medium,Fair,No,Yes,high,medium,high,high,low,8
+190,Hurricane,2012-11-02,39.12738588098441,-90.52369603826392,Austin,401,948,34,970,medium,long,medium,high,Fair,No,Yes,high,high,low,low,medium,8
+191,Flood,2012-11-07,47.27674957705257,-81.57460266840539,Alaska,338,472,88,1409,fast,long,low,medium,Poor,Yes,Yes,medium,high,medium,low,low,5
+192,Hurricane,2012-11-13,25.303557755408907,-107.48635451756265,Alaska,452,342,79,895,slow,long,high,high,Good,Yes,No,medium,high,high,medium,high,5
+193,Hurricane,2012-11-18,35.48855328814721,-96.64116017829848,New Orleans,278,593,60,431,slow,long,high,medium,Poor,Yes,No,medium,high,medium,low,low,6
+194,Flood,2012-11-24,34.31208561353132,-70.73607690887303,New Orleans,425,444,56,1483,medium,long,high,high,Poor,No,No,high,medium,medium,medium,high,5
+195,Earthquake,2012-11-29,42.08060759675329,-77.84748281751855,Austin,206,657,70,1751,medium,long,medium,high,Poor,No,No,medium,high,high,medium,high,5
+196,Hurricane,2012-12-05,33.89773646142323,-88.49202653994142,New Orleans,135,351,75,1785,medium,short,medium,high,Poor,Yes,No,low,high,high,low,medium,7
+197,Earthquake,2012-12-10,41.50023902533985,-73.99771346954043,Houston,227,538,60,1974,slow,medium,medium,high,Good,No,Yes,medium,high,medium,low,high,6
+198,Flood,2012-12-16,45.98062913267894,-70.59271200638284,Phoenix,324,669,14,603,fast,long,high,low,Poor,No,Yes,high,low,high,medium,high,9
+199,Hurricane,2012-12-21,37.41297415312525,-74.5262966309773,Houston,223,212,59,416,medium,long,high,high,Good,Yes,Yes,low,high,high,medium,low,8
+200,Earthquake,2012-12-27,30.044659674861837,-86.42110606867794,Austin,345,366,36,1812,slow,long,low,high,Poor,Yes,No,high,low,low,low,high,8
+201,Flood,2013-01-01,26.085625400818863,-96.40603379905284,Alaska,258,874,36,756,slow,medium,high,medium,Fair,Yes,No,high,high,medium,high,low,7
+202,Hurricane,2013-01-07,39.31842114123728,-86.0893630426823,New Orleans,149,320,73,887,medium,medium,medium,medium,Good,No,No,medium,high,high,medium,medium,5
+203,Tornado,2013-01-12,41.82336074756387,-104.05239223969872,Houston,86,463,15,1164,slow,long,medium,low,Poor,No,Yes,medium,high,high,high,low,5
+204,Tornado,2013-01-18,40.35270758437822,-110.30232755513696,California,204,496,78,1363,slow,long,low,low,Poor,No,No,high,medium,medium,medium,low,7
+205,Earthquake,2013-01-23,26.191448365969368,-105.52694997856,Phoenix,439,641,61,1908,fast,long,high,medium,Fair,No,No,high,medium,high,high,low,6
+206,Hurricane,2013-01-29,35.7934272681309,-106.5600915293497,Alaska,177,621,89,743,fast,long,high,high,Fair,No,Yes,low,high,low,high,low,5
+207,Hurricane,2013-02-03,33.41202515214188,-94.84989150186004,New Orleans,272,678,29,479,slow,medium,medium,medium,Good,No,No,medium,low,high,low,medium,7
+208,Tornado,2013-02-09,30.5475607201846,-95.14853706942765,California,127,130,39,696,medium,medium,low,medium,Fair,Yes,No,low,high,low,high,high,7
+209,Hurricane,2013-02-14,36.11717301458812,-106.06867052269104,Phoenix,337,584,31,698,slow,short,high,high,Good,No,No,medium,high,medium,high,high,7
+210,Hurricane,2013-02-20,32.667962091607485,-104.06272407987952,Houston,481,114,12,1672,slow,short,medium,medium,Fair,No,No,high,high,high,medium,high,5
+211,Earthquake,2013-02-25,37.91396122382817,-106.96035975737512,Phoenix,298,991,13,557,fast,long,high,medium,Good,Yes,No,low,high,medium,high,high,7
+212,Earthquake,2013-03-03,31.7619785354244,-119.2661961005016,California,493,762,77,693,medium,long,high,high,Good,No,Yes,medium,medium,medium,low,high,8
+213,Tornado,2013-03-08,37.93471912455044,-86.68449277924691,California,257,716,16,1383,fast,long,medium,medium,Fair,Yes,No,medium,high,medium,low,medium,8
+214,Earthquake,2013-03-13,30.02294603758022,-98.00423499473084,California,209,691,77,1613,fast,long,high,high,Good,Yes,No,medium,high,high,low,high,6
+215,Tornado,2013-03-19,47.09055880502424,-103.83883604988355,Alaska,279,573,22,1139,slow,medium,medium,high,Fair,No,Yes,high,high,medium,medium,high,7
+216,Hurricane,2013-03-24,48.567539502749554,-102.29120692391862,California,492,117,50,826,fast,long,high,high,Poor,No,No,medium,high,medium,medium,high,7
+217,Flood,2013-03-30,25.504735903534154,-109.63044561569367,Phoenix,114,942,94,301,fast,medium,low,low,Poor,Yes,Yes,medium,medium,high,low,medium,5
+218,Tornado,2013-04-04,36.30807787386178,-89.6909564646557,Alaska,148,839,20,238,medium,long,high,medium,Good,Yes,Yes,medium,medium,low,medium,high,6
+219,Tornado,2013-04-10,26.77446276023897,-110.54132750000733,Phoenix,333,795,82,257,fast,medium,medium,high,Fair,Yes,Yes,medium,low,medium,low,high,5
+220,Hurricane,2013-04-15,40.07402152622213,-119.73971837348206,New Orleans,495,771,35,1357,fast,long,high,medium,Fair,No,No,high,medium,medium,low,high,5
+221,Tornado,2013-04-21,45.21461676724032,-107.46858216562735,Austin,474,811,61,412,slow,long,high,high,Fair,Yes,No,high,high,medium,high,low,5
+222,Earthquake,2013-04-26,41.33939315737454,-124.12190137323203,New Orleans,304,573,36,567,slow,medium,high,low,Fair,Yes,No,low,medium,medium,high,low,5
+223,Flood,2013-05-02,35.09041027022979,-101.81962605840826,New Orleans,487,576,32,396,fast,long,low,medium,Good,No,No,medium,high,high,medium,medium,5
+224,Hurricane,2013-05-07,47.99686945309276,-83.9439598450437,Alaska,116,543,22,766,fast,long,high,high,Poor,No,No,low,low,low,low,high,9
+225,Earthquake,2013-05-13,44.18842132407853,-114.0480628997844,Alaska,340,851,98,1431,medium,long,low,high,Poor,Yes,No,high,high,high,low,high,6
+226,Earthquake,2013-05-18,45.22594336029867,-78.13935198538827,New Orleans,181,851,17,1756,medium,long,high,high,Poor,No,Yes,high,medium,high,medium,low,9
+227,Flood,2013-05-24,34.16707514415183,-115.93084958940788,California,280,961,63,1578,slow,short,medium,high,Fair,No,Yes,medium,medium,medium,medium,medium,6
+228,Tornado,2013-05-29,27.04666608225408,-75.64010746308469,Austin,302,678,61,1214,slow,short,high,medium,Good,Yes,Yes,high,medium,high,medium,high,5
+229,Hurricane,2013-06-04,36.930739544358616,-95.32590880364704,Alaska,395,974,25,1081,medium,short,high,medium,Poor,Yes,Yes,high,medium,high,medium,high,9
+230,Hurricane,2013-06-09,29.499121678798154,-73.80815916420437,Phoenix,440,337,27,916,medium,long,medium,high,Poor,Yes,No,low,high,high,low,medium,7
+231,Tornado,2013-06-15,49.24159475540178,-92.43813821523622,California,164,842,28,1799,medium,long,low,medium,Good,No,Yes,high,high,medium,medium,low,7
+232,Flood,2013-06-20,48.36741192069182,-89.4516728289133,Austin,55,847,77,1326,slow,medium,medium,high,Good,No,Yes,medium,high,high,medium,high,7
+233,Flood,2013-06-26,32.20880398483013,-86.98088639176083,Austin,276,654,11,1354,fast,long,high,high,Poor,Yes,Yes,high,high,high,low,low,7
+234,Tornado,2013-07-01,29.09597692317572,-86.69990257773867,Austin,416,987,58,1426,medium,long,high,medium,Fair,No,Yes,medium,medium,medium,high,high,9
+235,Hurricane,2013-07-07,46.01828759631779,-119.24084555790716,Phoenix,57,527,11,989,slow,short,high,high,Fair,No,Yes,high,low,high,medium,medium,9
+236,Earthquake,2013-07-12,47.4259258468429,-99.170064040377,Austin,488,771,98,1129,medium,long,high,high,Good,Yes,Yes,high,low,high,high,medium,6
+237,Flood,2013-07-18,49.78612415891813,-112.52759502031918,New Orleans,195,545,41,384,slow,short,low,high,Good,Yes,Yes,medium,low,medium,medium,medium,8
+238,Hurricane,2013-07-23,43.21490113324215,-75.03893983828728,Austin,239,152,49,1465,slow,medium,medium,medium,Poor,Yes,No,medium,high,high,medium,low,8
+239,Earthquake,2013-07-29,45.25895046484564,-72.5982931189608,California,107,748,39,569,fast,long,high,medium,Fair,Yes,Yes,high,high,medium,medium,high,8
+240,Hurricane,2013-08-03,38.33583510765455,-98.23485373356031,New Orleans,263,763,75,361,medium,long,high,medium,Good,No,Yes,high,medium,medium,high,low,5
+241,Earthquake,2013-08-09,38.10055819222758,-114.80059723944925,California,92,517,10,494,medium,medium,high,high,Good,Yes,Yes,high,medium,high,low,low,9
+242,Tornado,2013-08-14,40.294422942338166,-103.01381403393924,Alaska,181,456,13,915,slow,long,medium,high,Poor,No,Yes,medium,medium,low,low,high,9
+243,Tornado,2013-08-20,44.66664646398523,-98.28990876320604,Alaska,256,261,32,678,fast,long,high,medium,Good,Yes,Yes,medium,low,low,high,low,7
+244,Tornado,2013-08-25,42.4924583671034,-114.6869551998606,Alaska,386,239,40,1446,medium,long,low,high,Poor,Yes,No,high,medium,high,medium,medium,5
+245,Earthquake,2013-08-30,30.260758132604032,-89.20702036249793,New Orleans,392,757,13,554,slow,long,high,low,Fair,No,Yes,low,high,medium,high,high,6
+246,Flood,2013-09-05,46.57664449316253,-74.46489702034576,Houston,476,459,38,1169,medium,medium,high,medium,Good,Yes,No,low,low,low,high,medium,8
+247,Flood,2013-09-10,33.404972391651384,-113.58463027835322,Austin,423,296,34,1084,slow,long,high,high,Good,Yes,No,medium,medium,medium,high,low,9
+248,Tornado,2013-09-16,36.222545807668,-90.3268863993161,Phoenix,171,463,79,918,fast,medium,high,high,Fair,Yes,No,high,high,medium,high,low,7
+249,Tornado,2013-09-21,44.12956144572314,-107.4419610231388,Austin,281,146,58,533,medium,medium,medium,high,Good,Yes,Yes,high,medium,medium,high,medium,9
+250,Hurricane,2013-09-27,45.19378923758791,-91.76103151722398,California,130,833,46,1286,medium,short,medium,low,Fair,Yes,No,low,high,high,medium,high,6
+251,Earthquake,2013-10-02,49.93330988680587,-76.15319000718279,Houston,62,255,41,910,fast,long,high,low,Poor,Yes,No,low,medium,medium,medium,low,7
+252,Hurricane,2013-10-08,49.019916241627584,-103.57844877119057,Alaska,248,534,53,1004,medium,long,high,medium,Good,No,Yes,high,medium,low,medium,medium,6
+253,Earthquake,2013-10-13,33.04776006236204,-124.35860753018795,Alaska,476,116,12,1369,slow,short,high,medium,Poor,Yes,Yes,medium,low,low,medium,high,9
+254,Hurricane,2013-10-19,44.8024236691762,-96.43338813462732,New Orleans,263,731,65,211,medium,long,high,high,Good,Yes,No,medium,low,high,medium,high,6
+255,Hurricane,2013-10-24,30.678242488883058,-99.26713570187974,Austin,494,611,40,686,slow,short,medium,high,Fair,Yes,No,high,high,medium,high,low,8
+256,Hurricane,2013-10-30,44.3417000583666,-95.60187145100107,Austin,350,377,20,1392,slow,long,high,low,Fair,Yes,Yes,high,low,medium,low,medium,9
+257,Hurricane,2013-11-04,44.26538633268451,-101.4570798286258,Austin,490,598,75,296,slow,long,high,medium,Poor,No,Yes,medium,high,high,high,high,7
+258,Hurricane,2013-11-10,29.79876275744086,-99.2145639451949,Phoenix,190,828,13,1431,slow,medium,high,medium,Fair,Yes,No,medium,low,high,low,high,9
+259,Tornado,2013-11-15,42.306027291925936,-115.74732663843528,Houston,229,230,63,375,medium,short,medium,medium,Fair,No,Yes,high,low,medium,low,low,9
+260,Hurricane,2013-11-21,45.52924643923637,-121.76630378264252,Houston,110,870,45,225,slow,short,high,medium,Fair,Yes,Yes,low,high,high,low,high,5
+261,Earthquake,2013-11-26,47.3200643509063,-103.47022952311876,Austin,491,872,68,1310,fast,long,medium,high,Fair,No,Yes,high,medium,high,low,high,5
+262,Tornado,2013-12-02,31.01143957850804,-73.24240054341085,New Orleans,82,754,76,1904,medium,long,high,low,Fair,Yes,Yes,low,low,high,high,low,7
+263,Hurricane,2013-12-07,27.40459906629568,-91.28973546464005,New Orleans,408,495,98,745,medium,long,high,medium,Poor,No,Yes,high,medium,medium,high,high,9
+264,Hurricane,2013-12-13,36.42575804662757,-117.82854488743313,Austin,209,308,24,1801,fast,long,medium,medium,Good,No,Yes,medium,high,medium,high,medium,6
+265,Tornado,2013-12-18,40.564008334534144,-73.65847740752358,Austin,50,437,51,656,medium,long,high,medium,Poor,Yes,No,high,high,medium,high,high,9
+266,Hurricane,2013-12-24,44.35705648717607,-96.46801561356575,California,186,339,60,1317,medium,medium,high,high,Good,Yes,Yes,medium,medium,medium,high,high,7
+267,Tornado,2013-12-29,42.38142401696133,-106.16529923601126,California,493,473,44,644,slow,long,medium,medium,Fair,Yes,Yes,high,low,high,low,low,7
+268,Tornado,2014-01-04,33.36939149492121,-123.8585191827501,California,441,236,96,1274,medium,medium,low,medium,Poor,No,No,medium,medium,medium,medium,low,7
+269,Earthquake,2014-01-09,41.60389841374313,-100.0591583449489,Austin,221,730,51,1453,medium,long,low,medium,Poor,Yes,Yes,medium,medium,high,high,low,9
+270,Tornado,2014-01-15,41.442522595855024,-114.55215596401806,Austin,430,986,42,906,slow,medium,high,high,Poor,Yes,No,medium,medium,low,low,high,6
+271,Earthquake,2014-01-20,44.18895178245288,-119.70625460017166,California,100,533,66,577,medium,long,medium,low,Fair,No,Yes,medium,medium,high,low,high,5
+272,Hurricane,2014-01-26,45.21546033778179,-105.95527953925536,Houston,131,378,21,1766,medium,long,high,low,Fair,No,Yes,medium,low,medium,low,high,9
+273,Earthquake,2014-01-31,33.62184195609544,-110.97701018176409,Austin,243,635,60,1475,medium,long,high,high,Poor,Yes,Yes,medium,low,medium,medium,high,8
+274,Hurricane,2014-02-05,37.095267570792224,-88.1834814916408,Phoenix,53,526,14,253,medium,long,low,high,Good,No,No,medium,high,high,medium,low,6
+275,Hurricane,2014-02-11,28.305995752315926,-85.5749638483061,Phoenix,328,289,47,1851,medium,medium,low,medium,Good,Yes,No,low,medium,high,low,medium,6
+276,Tornado,2014-02-16,33.03534042335736,-72.04199869621661,Alaska,211,965,71,1090,medium,short,high,low,Good,No,No,high,high,medium,medium,low,9
+277,Flood,2014-02-22,26.85935343605184,-113.65340657882462,New Orleans,389,545,88,1489,slow,long,high,medium,Good,No,Yes,high,high,high,high,low,7
+278,Tornado,2014-02-27,34.48564674331085,-82.35015495417214,Houston,332,983,91,1829,medium,long,high,high,Poor,No,Yes,medium,low,medium,low,high,7
+279,Tornado,2014-03-05,35.2623392343443,-111.53914132144668,Houston,358,151,55,571,medium,short,high,high,Poor,No,No,high,medium,low,high,low,5
+280,Tornado,2014-03-10,42.07380122509293,-96.24372773257636,Phoenix,491,507,22,1082,medium,medium,high,high,Good,No,Yes,low,medium,high,high,high,9
+281,Flood,2014-03-16,34.16305951284636,-89.38598265569836,New Orleans,360,580,86,1503,medium,long,high,high,Fair,No,No,medium,medium,medium,low,medium,5
+282,Hurricane,2014-03-21,30.850571275841236,-106.07216600870532,California,286,231,74,1634,slow,long,high,medium,Good,Yes,No,high,medium,high,medium,high,7
+283,Flood,2014-03-27,30.012234425607343,-111.8961422596931,Houston,164,133,39,1977,medium,long,high,high,Fair,Yes,Yes,high,high,medium,medium,high,7
+284,Hurricane,2014-04-01,36.71392663405112,-106.92403606047571,Alaska,97,429,96,1930,medium,long,high,low,Good,Yes,Yes,medium,high,high,medium,high,7
+285,Hurricane,2014-04-07,49.67899030198907,-112.91995507000937,New Orleans,284,276,48,1432,medium,long,medium,high,Poor,No,Yes,medium,high,low,medium,medium,9
+286,Earthquake,2014-04-12,27.192060524171435,-87.58467127068022,Austin,321,165,37,1521,fast,long,medium,high,Fair,Yes,Yes,high,high,high,high,medium,8
+287,Hurricane,2014-04-18,33.0009766926191,-92.93311319760237,California,322,607,28,1115,fast,medium,low,high,Fair,No,No,high,high,high,low,low,7
+288,Flood,2014-04-23,47.87988459263705,-115.1443094099173,Phoenix,301,893,52,1871,medium,long,medium,low,Fair,No,Yes,high,low,low,high,low,6
+289,Hurricane,2014-04-29,39.29909332275492,-106.71811146095584,Alaska,431,338,57,838,medium,long,medium,high,Poor,No,No,medium,medium,medium,high,medium,8
+290,Tornado,2014-05-04,39.22781052941016,-93.68550755488631,Austin,243,149,83,1731,medium,long,medium,medium,Good,Yes,Yes,high,low,medium,low,low,5
+291,Earthquake,2014-05-10,33.04676737855329,-104.70913248358085,Alaska,172,998,88,801,fast,long,low,low,Good,Yes,Yes,high,low,high,high,high,8
+292,Hurricane,2014-05-15,49.48496973528758,-88.77291126071701,California,351,380,95,795,slow,medium,high,low,Good,No,Yes,medium,medium,low,high,medium,7
+293,Flood,2014-05-21,46.084544207187264,-101.19601869039516,Phoenix,371,210,15,1604,medium,long,low,medium,Poor,No,Yes,high,medium,high,low,medium,6
+294,Earthquake,2014-05-26,28.20177073124735,-113.09978854667251,Alaska,75,497,38,564,slow,medium,medium,medium,Poor,No,Yes,low,high,medium,high,low,7
+295,Flood,2014-06-01,25.765962269914297,-114.27019538718991,Alaska,348,148,75,1762,slow,long,medium,low,Fair,No,Yes,medium,medium,medium,medium,low,7
+296,Hurricane,2014-06-06,36.5809379136312,-120.95213314916012,California,269,412,75,1327,fast,long,low,medium,Fair,No,No,medium,medium,medium,high,high,7
+297,Flood,2014-06-12,27.26863990965997,-92.15045442659316,New Orleans,64,801,24,403,slow,long,low,medium,Good,Yes,Yes,high,medium,high,medium,medium,5
+298,Tornado,2014-06-17,26.47222749495417,-101.12726280627528,New Orleans,445,921,88,358,fast,long,low,low,Good,No,No,high,high,high,medium,high,9
+299,Hurricane,2014-06-23,45.88308955494891,-71.49608273058712,Phoenix,102,278,22,660,medium,medium,medium,high,Good,No,No,low,high,high,high,high,5
+300,Hurricane,2014-06-28,42.83468104837453,-101.35078258080074,Phoenix,448,450,85,518,slow,short,low,high,Poor,Yes,No,high,low,medium,low,medium,5
+301,Tornado,2014-07-04,43.64179348066234,-109.8941678663032,Austin,250,631,32,1163,fast,short,high,high,Fair,Yes,No,medium,medium,low,high,medium,6
+302,Earthquake,2014-07-09,43.75393638661686,-94.29818684970472,California,411,110,41,662,medium,long,high,medium,Poor,Yes,No,medium,low,low,low,low,5
+303,Flood,2014-07-15,42.99132457075244,-100.61171710061996,Austin,311,540,15,1589,medium,short,high,high,Fair,No,Yes,high,high,medium,high,medium,9
+304,Hurricane,2014-07-20,36.62141769217493,-121.5386376532597,Alaska,387,128,77,1605,fast,medium,high,high,Fair,Yes,Yes,medium,high,low,medium,medium,8
+305,Tornado,2014-07-25,46.44905340702661,-104.65539544237978,New Orleans,159,997,16,1200,fast,long,low,medium,Good,No,Yes,high,high,low,medium,low,8
+306,Flood,2014-07-31,28.923236946809,-70.28115587932845,California,206,496,97,1530,medium,short,high,medium,Fair,No,No,medium,low,medium,medium,high,7
+307,Hurricane,2014-08-05,44.541223115470935,-99.95279755551636,Houston,158,147,56,1946,slow,long,high,high,Fair,Yes,No,high,high,medium,medium,high,9
+308,Flood,2014-08-11,27.207043660204445,-111.67650690148636,California,324,656,54,417,slow,long,high,high,Fair,No,Yes,high,medium,medium,low,medium,6
+309,Tornado,2014-08-16,44.73063733780645,-105.66088751604462,Alaska,427,411,13,1535,slow,short,low,medium,Good,No,No,medium,low,high,high,medium,5
+310,Hurricane,2014-08-22,35.78511469300368,-86.6478708153299,Houston,392,452,83,964,slow,medium,high,high,Fair,No,Yes,high,high,medium,medium,high,9
+311,Flood,2014-08-27,26.99155592138509,-72.50029155648741,Houston,403,165,50,1142,fast,medium,high,low,Fair,Yes,No,low,high,high,medium,high,8
+312,Tornado,2014-09-02,28.486645184571387,-113.66029994928466,California,433,570,50,393,slow,long,medium,high,Good,Yes,Yes,high,medium,low,low,low,5
+313,Hurricane,2014-09-07,32.94350868175789,-77.90504864898544,California,287,166,11,1034,slow,medium,low,medium,Good,Yes,No,medium,high,low,high,low,6
+314,Hurricane,2014-09-13,49.68226286442517,-73.26203032842122,Austin,211,587,53,499,fast,medium,medium,high,Good,Yes,Yes,high,medium,high,high,high,9
+315,Hurricane,2014-09-18,46.92438692421452,-113.00780104678252,Alaska,465,307,52,341,medium,long,high,low,Fair,Yes,No,medium,medium,high,high,high,6
+316,Tornado,2014-09-24,36.34172412342765,-113.4583194814633,Alaska,80,341,79,1347,slow,long,medium,high,Poor,Yes,Yes,high,high,high,medium,medium,7
+317,Tornado,2014-09-29,37.93118951125217,-122.2944918031486,New Orleans,287,186,89,1909,medium,long,medium,medium,Fair,Yes,Yes,medium,high,high,medium,high,7
+318,Hurricane,2014-10-05,42.40854709247756,-81.93501747222602,Austin,146,163,73,1882,fast,medium,high,medium,Poor,Yes,No,high,medium,high,medium,low,6
+319,Tornado,2014-10-10,46.29205452490714,-101.73800517430404,New Orleans,114,973,58,1534,slow,short,high,high,Fair,Yes,No,high,low,low,high,high,5
+320,Earthquake,2014-10-16,34.54259731555721,-113.2475908449049,Alaska,281,706,58,967,fast,long,high,low,Fair,Yes,No,high,low,high,high,high,7
+321,Tornado,2014-10-21,39.82348216469211,-120.84178387338292,New Orleans,429,394,90,290,medium,medium,high,medium,Good,No,No,medium,medium,low,high,low,7
+322,Tornado,2014-10-27,32.00293364610254,-82.48194019095834,Austin,361,647,21,900,fast,long,high,medium,Poor,No,No,high,medium,medium,medium,medium,5
+323,Earthquake,2014-11-01,38.55227800482968,-92.44360845994036,Alaska,462,667,47,795,slow,medium,low,high,Poor,No,No,medium,medium,low,medium,low,9
+324,Earthquake,2014-11-07,46.77953247183315,-119.72817137123972,Austin,478,146,77,1809,fast,long,medium,high,Good,No,Yes,medium,medium,medium,medium,low,7
+325,Flood,2014-11-12,25.032610004660995,-91.78410539035914,Phoenix,98,647,55,207,slow,long,medium,medium,Fair,Yes,No,medium,medium,medium,medium,high,9
+326,Flood,2014-11-18,27.45109247527463,-80.93624244067973,Houston,281,524,76,411,slow,long,medium,high,Good,Yes,Yes,medium,medium,low,low,medium,8
+327,Tornado,2014-11-23,36.46831321877357,-103.86251018973012,Alaska,434,166,77,420,slow,long,high,high,Fair,No,Yes,medium,medium,medium,high,high,9
+328,Tornado,2014-11-29,27.99728328508024,-117.27424347469425,New Orleans,354,745,11,734,medium,medium,high,high,Poor,No,Yes,medium,high,high,medium,low,6
+329,Earthquake,2014-12-04,39.288221776042285,-75.66633337930413,Alaska,374,123,61,1214,fast,long,high,high,Poor,No,No,medium,high,medium,high,high,7
+330,Hurricane,2014-12-10,38.46474255988619,-116.85096239375268,Alaska,196,298,35,344,slow,short,high,low,Poor,Yes,No,medium,high,low,low,high,9
+331,Earthquake,2014-12-15,38.22314187841419,-75.91767014498593,California,494,819,82,1507,slow,long,high,high,Fair,Yes,Yes,medium,medium,high,high,high,8
+332,Flood,2014-12-21,40.01854712148867,-75.91841321228429,California,113,152,56,1864,slow,long,low,medium,Poor,No,No,medium,high,low,high,low,9
+333,Earthquake,2014-12-26,36.80017509825767,-92.0298896503826,Alaska,303,173,51,1193,medium,long,high,high,Good,No,No,medium,low,medium,high,high,5
+334,Earthquake,2015-01-01,39.18738674016403,-70.07090728286519,Houston,463,855,18,445,slow,long,medium,medium,Poor,Yes,Yes,medium,medium,medium,low,high,6
+335,Flood,2015-01-06,49.32565807117926,-103.0008152857222,Phoenix,220,698,91,1602,slow,long,low,high,Poor,Yes,Yes,high,medium,low,low,low,6
+336,Tornado,2015-01-11,44.02286894450211,-117.56713087481256,Houston,357,138,80,971,fast,medium,low,low,Fair,Yes,Yes,low,high,medium,low,low,9
+337,Hurricane,2015-01-17,29.481204392110342,-111.06429499170044,Austin,99,800,22,706,medium,long,medium,high,Fair,Yes,No,medium,high,high,medium,high,9
+338,Tornado,2015-01-22,39.75879018418907,-82.84406015336668,Houston,277,896,27,236,medium,long,high,medium,Poor,No,No,medium,medium,medium,high,low,7
+339,Earthquake,2015-01-28,45.21372426266737,-97.61109032659728,New Orleans,484,269,79,306,slow,medium,medium,high,Good,Yes,Yes,high,high,low,medium,high,6
+340,Hurricane,2015-02-02,33.17118837650031,-104.6212696344998,Austin,161,545,42,1713,slow,long,high,medium,Good,Yes,No,high,high,medium,high,medium,7
+341,Earthquake,2015-02-08,45.65796426941554,-112.98396882318173,Austin,454,185,95,913,fast,medium,high,high,Poor,No,Yes,high,high,high,medium,high,7
+342,Flood,2015-02-13,38.02747914033319,-97.59000870988046,Phoenix,427,607,58,491,fast,long,low,medium,Poor,No,Yes,medium,high,medium,high,high,6
+343,Earthquake,2015-02-19,26.339646644245327,-88.30623027581001,Austin,228,367,99,859,slow,short,high,medium,Poor,Yes,Yes,high,high,medium,medium,medium,5
+344,Earthquake,2015-02-24,38.9144868214464,-100.24429012290946,California,204,114,21,210,fast,long,medium,low,Poor,Yes,No,low,high,high,low,high,7
+345,Tornado,2015-03-02,34.192767714235266,-97.55892761430393,Houston,183,941,79,1497,medium,medium,medium,low,Poor,No,Yes,medium,medium,high,high,high,5
+346,Tornado,2015-03-07,46.635771227904215,-81.22046653518584,Phoenix,418,977,88,268,medium,long,medium,low,Good,Yes,No,medium,high,high,low,low,8
+347,Tornado,2015-03-13,43.466674530273,-108.93201159433504,California,388,331,34,407,slow,medium,low,low,Poor,Yes,Yes,medium,medium,high,high,high,9
+348,Hurricane,2015-03-18,42.9219998706925,-73.09679103176607,California,55,382,85,713,slow,medium,high,medium,Good,Yes,No,high,medium,low,low,medium,5
+349,Earthquake,2015-03-24,28.70759800103788,-85.96295146883432,Alaska,268,840,45,667,slow,long,medium,medium,Fair,No,Yes,low,high,medium,medium,low,9
+350,Flood,2015-03-29,42.76170702401605,-80.43853186156554,Phoenix,266,779,56,1589,medium,long,medium,high,Fair,No,Yes,medium,low,medium,medium,high,9
+351,Hurricane,2015-04-04,44.43675874801238,-119.56984000113002,Phoenix,188,703,54,1406,medium,long,low,medium,Good,No,No,high,medium,medium,high,medium,8
+352,Tornado,2015-04-09,44.16834036749376,-110.522049494636,Houston,410,592,12,435,fast,long,medium,medium,Good,Yes,No,medium,high,high,medium,low,9
+353,Flood,2015-04-15,33.627273698030045,-107.80889136635535,California,141,786,80,1270,slow,long,high,high,Poor,No,Yes,high,medium,low,low,high,7
+354,Flood,2015-04-20,48.60481305949469,-81.38186196067576,Houston,194,460,55,519,slow,long,high,low,Good,No,Yes,low,medium,high,high,low,9
+355,Hurricane,2015-04-26,31.590000447996665,-93.87395159661465,Houston,199,813,33,1590,slow,medium,high,high,Poor,No,No,high,high,medium,high,medium,6
+356,Tornado,2015-05-01,35.82001407585923,-88.88241383454198,Houston,348,571,89,775,fast,long,medium,high,Poor,No,Yes,high,high,low,high,high,7
+357,Flood,2015-05-07,43.44851428134685,-93.45736359740096,Houston,296,178,10,1170,fast,long,low,medium,Fair,No,Yes,high,medium,low,high,low,6
+358,Flood,2015-05-12,41.25221706326245,-78.76295547009812,New Orleans,372,579,23,1795,slow,medium,medium,low,Good,Yes,No,low,medium,medium,low,low,9
+359,Tornado,2015-05-18,29.97177035554399,-88.07032385098529,California,360,278,13,205,slow,long,high,low,Fair,No,No,medium,low,high,low,high,6
+360,Earthquake,2015-05-23,31.84136460391096,-104.30085853465866,Houston,253,258,89,466,slow,long,high,high,Poor,No,Yes,medium,medium,low,high,medium,9
+361,Hurricane,2015-05-29,33.681398159004246,-103.00734016505254,New Orleans,274,877,12,1150,slow,long,medium,low,Good,Yes,Yes,low,high,high,low,low,5
+362,Flood,2015-06-03,48.22232543952178,-104.83557641811294,Alaska,217,550,64,1919,slow,long,low,high,Poor,No,No,low,high,high,medium,high,6
+363,Flood,2015-06-09,27.15678081236028,-92.3583375673566,New Orleans,447,806,89,1095,medium,long,high,medium,Fair,Yes,Yes,high,high,medium,medium,low,5
+364,Hurricane,2015-06-14,44.44493179117024,-87.64934408429562,Alaska,363,286,34,1406,fast,medium,high,high,Fair,No,Yes,medium,medium,medium,medium,low,9
+365,Flood,2015-06-19,34.948736551660176,-79.5604527039939,Alaska,125,455,37,1469,fast,long,low,high,Good,No,Yes,medium,low,high,high,high,7
+366,Hurricane,2015-06-25,34.60116041820933,-100.49473731016838,Alaska,459,505,14,262,slow,long,low,medium,Good,No,No,low,high,medium,high,high,8
+367,Earthquake,2015-06-30,28.603207681093707,-70.3492773374848,California,433,753,23,491,medium,long,low,low,Good,No,Yes,medium,medium,high,low,high,6
+368,Earthquake,2015-07-06,42.47116765798329,-74.85409361545248,Austin,292,561,23,631,slow,medium,high,high,Poor,Yes,No,medium,medium,low,low,high,5
+369,Earthquake,2015-07-11,44.934311715589885,-83.28794736185267,Austin,57,729,73,204,slow,short,low,high,Good,Yes,No,low,medium,medium,medium,low,5
+370,Hurricane,2015-07-17,40.96195979637245,-89.46333329146705,Austin,404,553,27,249,medium,long,high,medium,Fair,Yes,Yes,medium,high,high,high,low,7
+371,Flood,2015-07-22,31.99749694635444,-108.6747229665374,Houston,226,706,73,1742,slow,short,medium,low,Good,No,No,medium,low,low,high,medium,7
+372,Hurricane,2015-07-28,31.70259517613021,-117.12344696533631,New Orleans,258,688,98,1265,fast,long,medium,high,Poor,No,Yes,high,high,low,high,low,6
+373,Tornado,2015-08-02,39.71250728332608,-122.93423884522628,Alaska,95,879,19,408,medium,short,high,high,Fair,Yes,No,low,medium,low,low,low,6
+374,Flood,2015-08-08,30.529692320187376,-96.85213902705529,Phoenix,422,563,41,463,medium,long,low,medium,Fair,Yes,No,high,high,high,high,low,7
+375,Hurricane,2015-08-13,49.92347135756971,-109.35696461113427,Phoenix,211,595,26,216,medium,medium,medium,high,Poor,No,No,medium,low,medium,medium,low,7
+376,Hurricane,2015-08-19,30.599904466177016,-96.80305719678596,Alaska,232,409,42,1142,fast,short,high,medium,Good,Yes,Yes,high,low,medium,high,high,7
+377,Earthquake,2015-08-24,46.80061607199134,-92.16417691773026,Alaska,498,826,20,1159,fast,short,high,high,Good,No,Yes,low,medium,medium,medium,low,6
+378,Hurricane,2015-08-30,39.64332177609809,-93.52414558422254,Austin,484,624,57,1097,medium,medium,low,high,Poor,No,Yes,high,medium,low,medium,high,5
+379,Earthquake,2015-09-04,48.82610986062048,-121.97596709957298,Phoenix,263,579,84,1505,slow,long,medium,high,Good,Yes,Yes,medium,medium,high,high,low,7
+380,Hurricane,2015-09-10,35.158975622363336,-115.47571123026302,Austin,413,908,52,1495,medium,long,low,low,Fair,Yes,Yes,low,high,low,high,low,6
+381,Hurricane,2015-09-15,47.16562194068766,-93.62731741830456,Phoenix,220,683,60,544,fast,short,high,high,Poor,No,No,medium,low,low,high,low,9
+382,Flood,2015-09-21,29.1129867202736,-81.0063689306964,Alaska,80,669,33,450,fast,medium,high,high,Fair,No,No,medium,medium,high,high,high,7
+383,Tornado,2015-09-26,28.26169339263217,-112.39191130063924,California,341,361,86,1561,medium,short,low,high,Poor,Yes,No,low,high,medium,low,high,9
+384,Flood,2015-10-02,32.589635564343304,-78.27497443664379,Phoenix,199,376,70,881,medium,short,medium,high,Poor,Yes,Yes,low,low,medium,medium,high,5
+385,Earthquake,2015-10-07,48.25398118278483,-116.65552462258,Austin,453,641,49,1046,slow,short,low,high,Fair,No,No,medium,medium,low,medium,high,6
+386,Flood,2015-10-13,32.866324726725736,-90.10857476999944,Austin,407,201,57,966,slow,long,medium,medium,Fair,Yes,No,low,high,high,low,low,6
+387,Earthquake,2015-10-18,42.95208840326751,-100.31177065310663,Alaska,78,559,77,1959,medium,medium,high,medium,Good,Yes,Yes,medium,low,medium,low,low,7
+388,Flood,2015-10-24,47.28372497942484,-87.85176699818912,New Orleans,370,641,83,447,slow,medium,high,medium,Good,No,Yes,high,medium,medium,low,medium,7
+389,Hurricane,2015-10-29,36.90203502518224,-90.67373725303732,Alaska,343,965,56,816,medium,long,medium,medium,Fair,Yes,Yes,high,high,high,high,low,6
+390,Tornado,2015-11-04,27.442926371969754,-113.28949209643568,New Orleans,182,972,45,394,slow,long,high,high,Poor,No,Yes,medium,medium,low,medium,low,7
+391,Tornado,2015-11-09,34.763500458834315,-79.65861368090091,Alaska,455,852,35,570,slow,medium,high,high,Fair,No,Yes,medium,high,high,high,high,7
+392,Tornado,2015-11-15,36.69346856485032,-95.56985085913556,Alaska,390,628,89,396,fast,long,medium,high,Good,No,Yes,high,high,high,medium,low,9
+393,Tornado,2015-11-20,47.32658922173293,-116.38551312570767,Phoenix,235,260,34,734,medium,long,low,low,Fair,No,No,medium,medium,low,medium,high,5
+394,Hurricane,2015-11-26,38.88233657136529,-83.90583866435229,Alaska,123,122,75,617,medium,medium,high,high,Fair,Yes,No,medium,low,high,low,medium,5
+395,Flood,2015-12-01,31.028395398702934,-85.27856876314075,California,109,644,61,413,fast,short,high,high,Poor,Yes,No,high,low,medium,low,low,8
+396,Earthquake,2015-12-06,31.28869448894093,-88.41319347435393,Alaska,383,274,37,972,medium,long,low,high,Poor,No,Yes,high,medium,low,low,high,7
+397,Hurricane,2015-12-12,39.5767898896872,-101.93895376182094,Phoenix,424,133,13,1209,medium,short,medium,low,Poor,No,Yes,high,low,medium,low,high,5
+398,Flood,2015-12-17,49.02876579310549,-104.09029358495516,California,370,209,17,551,medium,long,low,high,Poor,No,No,medium,medium,high,low,high,9
+399,Tornado,2015-12-23,42.45968518695538,-99.01831793117216,Houston,209,414,89,1259,medium,medium,high,high,Poor,No,Yes,high,medium,medium,low,high,7
+400,Tornado,2015-12-28,47.90757927586667,-95.09815915849626,Austin,125,711,42,1354,slow,long,low,medium,Poor,No,Yes,medium,high,high,low,medium,6
+401,Earthquake,2016-01-03,29.312067037976103,-113.8761918459144,New Orleans,153,928,19,1387,fast,medium,medium,high,Good,Yes,Yes,high,low,high,low,high,9
+402,Hurricane,2016-01-08,43.36925625295048,-120.94628951495127,California,274,193,75,772,medium,short,high,high,Fair,No,No,medium,medium,low,medium,low,5
+403,Tornado,2016-01-14,41.647998027322586,-101.54450356084806,Houston,403,426,65,1324,slow,long,high,high,Good,Yes,No,medium,medium,high,low,medium,9
+404,Tornado,2016-01-19,35.63136047558173,-105.27673118665042,Austin,140,959,63,1628,medium,medium,medium,high,Poor,Yes,No,medium,high,medium,low,low,6
+405,Earthquake,2016-01-25,49.14684300927351,-87.24956759365294,Houston,335,783,87,1261,slow,long,medium,low,Good,Yes,No,high,medium,medium,medium,high,6
+406,Flood,2016-01-30,30.387302890071368,-74.7843272237937,California,474,926,61,793,fast,medium,high,high,Fair,No,Yes,medium,medium,medium,medium,low,5
+407,Tornado,2016-02-05,41.79372988170566,-87.56865300601737,Austin,76,135,66,1762,slow,long,low,low,Poor,Yes,No,medium,medium,medium,low,low,5
+408,Earthquake,2016-02-10,34.73450529618073,-115.49730364447004,New Orleans,420,285,63,593,fast,short,low,medium,Poor,No,Yes,medium,high,high,low,high,9
+409,Earthquake,2016-02-16,43.310002823499794,-120.71704642508534,Houston,92,675,68,556,slow,long,medium,high,Fair,Yes,Yes,medium,high,low,medium,low,7
+410,Hurricane,2016-02-21,40.84158048655132,-78.98166681494142,Alaska,468,555,71,1336,slow,short,medium,medium,Fair,Yes,Yes,medium,medium,high,high,low,5
+411,Flood,2016-02-27,45.14544168670262,-82.42581998504076,Phoenix,405,101,33,1405,slow,long,high,high,Poor,Yes,No,high,high,high,medium,low,7
+412,Flood,2016-03-03,42.80684461270121,-95.14499251623424,New Orleans,351,686,20,1388,fast,long,high,low,Fair,No,No,high,low,low,low,high,7
+413,Tornado,2016-03-09,45.43089459212304,-104.60848464148934,Houston,235,458,36,1527,slow,long,high,medium,Poor,Yes,No,high,high,medium,low,high,6
+414,Hurricane,2016-03-14,44.7254066760688,-104.38955816917654,Alaska,467,842,61,1714,slow,long,high,high,Fair,No,Yes,low,medium,low,medium,low,6
+415,Earthquake,2016-03-20,45.04815858521756,-96.21772782166887,Houston,220,428,95,1245,slow,medium,high,medium,Fair,No,Yes,medium,medium,medium,medium,medium,5
+416,Hurricane,2016-03-25,44.214142734158216,-116.3717936417974,Houston,417,644,60,438,medium,long,medium,high,Poor,No,Yes,medium,medium,medium,high,high,6
+417,Tornado,2016-03-31,33.88576103255657,-93.89539930243087,New Orleans,58,729,93,332,fast,long,high,high,Good,Yes,No,high,low,medium,high,low,7
+418,Flood,2016-04-05,48.17940106280074,-92.25386144347009,California,400,339,87,647,slow,long,medium,high,Good,Yes,Yes,medium,medium,medium,high,low,8
+419,Flood,2016-04-11,27.44131394126188,-87.70233699225287,Alaska,247,404,57,1158,medium,long,high,high,Good,Yes,No,medium,low,medium,low,medium,6
+420,Earthquake,2016-04-16,27.027164443303093,-117.20378987071356,Alaska,212,111,18,679,slow,long,high,medium,Fair,Yes,No,medium,medium,high,high,high,5
+421,Hurricane,2016-04-22,45.598497972477766,-121.5525838053244,New Orleans,480,748,59,1473,slow,long,high,medium,Fair,No,Yes,high,high,low,high,high,7
+422,Tornado,2016-04-27,26.7472788012498,-94.24459473227344,Alaska,59,831,35,222,slow,medium,low,high,Good,No,Yes,high,low,medium,medium,low,9
+423,Tornado,2016-05-03,47.018331278084304,-120.67561357959852,Austin,437,983,30,266,slow,long,high,high,Poor,No,No,medium,low,high,medium,medium,9
+424,Flood,2016-05-08,28.797139271639743,-84.51340192595504,Houston,347,306,98,1942,slow,medium,low,low,Fair,No,Yes,medium,low,low,low,high,7
+425,Tornado,2016-05-13,44.234675298572405,-73.3616634361438,Alaska,92,577,82,557,medium,short,high,high,Good,No,No,medium,medium,medium,medium,low,6
+426,Hurricane,2016-05-19,25.4497568995266,-84.2642347195866,Austin,297,336,19,1207,medium,medium,high,high,Good,Yes,No,medium,high,low,low,low,5
+427,Tornado,2016-05-24,32.47758581239265,-116.7165657455878,Alaska,132,803,32,1174,medium,long,high,low,Fair,Yes,No,high,medium,medium,medium,high,9
+428,Earthquake,2016-05-30,47.56515725136636,-119.22054979863611,Phoenix,278,389,49,877,medium,medium,high,medium,Good,Yes,Yes,high,medium,medium,high,low,5
+429,Flood,2016-06-04,31.127506099657246,-77.8211757413714,Alaska,395,685,10,941,medium,long,low,low,Good,Yes,No,medium,high,low,high,low,8
+430,Flood,2016-06-10,27.713612669929788,-119.39853313516817,Alaska,188,788,63,281,slow,medium,medium,low,Poor,Yes,Yes,medium,low,low,low,high,5
+431,Hurricane,2016-06-15,29.39230403852104,-76.67246831873253,Austin,323,340,63,729,medium,long,high,medium,Good,No,No,high,high,high,high,medium,5
+432,Hurricane,2016-06-21,45.32825336843749,-81.40914120410426,New Orleans,263,462,62,1664,fast,long,high,high,Poor,No,Yes,medium,high,high,low,high,9
+433,Flood,2016-06-26,49.02675293375715,-110.42003018396096,Alaska,246,438,19,990,slow,long,high,high,Fair,No,Yes,medium,high,low,high,high,7
+434,Flood,2016-07-02,49.5112192389652,-98.06163086963012,Austin,218,119,50,1260,medium,short,high,medium,Good,No,No,medium,high,high,high,high,5
+435,Tornado,2016-07-07,49.50094631196143,-83.30570373754998,Houston,466,563,74,528,fast,medium,high,low,Poor,Yes,No,medium,medium,low,low,low,8
+436,Tornado,2016-07-13,26.606499321478232,-89.52692048539316,Alaska,477,622,68,1434,medium,short,low,low,Good,No,No,high,low,low,high,medium,7
+437,Hurricane,2016-07-18,40.376987330721946,-71.66582886254949,New Orleans,191,822,37,1119,slow,long,medium,medium,Good,Yes,No,medium,high,medium,low,low,6
+438,Tornado,2016-07-24,26.84505562939966,-71.0144574694252,Houston,173,993,87,1301,medium,long,low,medium,Poor,Yes,No,medium,low,medium,medium,high,7
+439,Hurricane,2016-07-29,39.17525796610426,-89.58894595770835,Alaska,135,619,39,1169,medium,medium,low,medium,Good,No,Yes,high,medium,high,high,low,7
+440,Hurricane,2016-08-04,39.14928945933941,-93.87204685355596,Alaska,498,700,82,1376,slow,medium,high,medium,Poor,No,No,high,medium,high,medium,high,5
+441,Earthquake,2016-08-09,48.52165324075715,-85.35906514732429,Phoenix,96,762,36,990,fast,medium,medium,medium,Fair,Yes,Yes,medium,medium,low,low,high,7
+442,Tornado,2016-08-15,28.225117743417552,-104.1149352741455,Alaska,60,461,73,1085,medium,medium,low,medium,Poor,Yes,No,high,high,high,medium,medium,9
+443,Flood,2016-08-20,26.732041949858694,-120.70333087708164,Austin,462,350,85,271,slow,short,high,high,Good,No,Yes,low,medium,high,low,low,7
+444,Tornado,2016-08-26,31.76979090927697,-81.48758088037843,Phoenix,385,629,27,1268,slow,long,low,medium,Fair,No,No,high,high,medium,low,low,6
+445,Flood,2016-08-31,35.897350545790374,-73.20187813010688,Phoenix,397,567,61,931,medium,short,low,medium,Poor,No,No,medium,high,high,medium,low,7
+446,Tornado,2016-09-06,28.708568442352856,-108.45573660801892,Alaska,313,160,10,332,slow,long,high,medium,Good,Yes,No,medium,high,medium,high,high,6
+447,Tornado,2016-09-11,31.476461272821616,-116.48216864041864,New Orleans,488,336,57,214,medium,short,high,medium,Fair,Yes,Yes,high,medium,high,high,low,5
+448,Earthquake,2016-09-17,38.6255296472345,-73.3391503505719,New Orleans,423,935,30,1285,slow,long,low,high,Fair,Yes,Yes,high,high,low,high,low,7
+449,Tornado,2016-09-22,34.87443293242744,-111.34420157072132,Austin,271,817,73,375,medium,long,high,medium,Good,Yes,No,high,high,high,low,low,8
+450,Hurricane,2016-09-28,34.00584088607522,-84.62765046476889,Alaska,236,233,25,481,medium,long,low,low,Good,No,Yes,medium,high,medium,low,medium,8
+451,Flood,2016-10-03,44.2336194696948,-123.62923368161069,New Orleans,474,783,78,910,medium,medium,high,high,Fair,Yes,No,high,low,medium,low,medium,5
+452,Earthquake,2016-10-09,48.72155588503013,-73.94998174768685,Houston,124,777,94,1913,slow,long,high,high,Poor,No,Yes,high,high,low,high,high,6
+453,Flood,2016-10-14,44.55131249170789,-104.16775352752128,Austin,418,307,84,467,fast,long,medium,medium,Poor,No,Yes,medium,medium,low,medium,low,8
+454,Flood,2016-10-20,37.326302174646784,-117.87637249613692,Austin,382,120,55,357,slow,medium,high,high,Fair,No,Yes,medium,high,medium,high,low,9
+455,Hurricane,2016-10-25,46.55358823726839,-71.4042219945164,New Orleans,414,356,27,1766,slow,short,medium,high,Fair,Yes,Yes,medium,high,medium,high,low,8
+456,Earthquake,2016-10-30,27.18631599082734,-90.33648227035562,Houston,69,645,98,1037,medium,long,high,low,Good,Yes,Yes,high,high,high,medium,high,5
+457,Tornado,2016-11-05,26.708232611180915,-121.63355806188328,Phoenix,245,914,58,774,slow,long,medium,low,Fair,No,Yes,high,high,medium,high,high,5
+458,Tornado,2016-11-10,36.818279555124775,-93.95879849073884,Austin,435,542,15,1853,fast,long,low,high,Fair,No,No,low,high,low,high,low,5
+459,Tornado,2016-11-16,34.2537372266895,-78.2171621990276,Alaska,368,389,16,482,medium,long,medium,medium,Good,Yes,Yes,low,medium,low,medium,medium,7
+460,Tornado,2016-11-21,49.86113966016904,-81.21033003609153,Austin,322,638,78,1348,medium,long,low,medium,Poor,No,Yes,medium,high,medium,high,low,6
+461,Flood,2016-11-27,48.23256771370863,-115.10229264895588,California,170,426,93,1894,slow,long,medium,low,Fair,No,No,low,medium,medium,high,medium,6
+462,Flood,2016-12-02,45.5109928669504,-121.8480646917334,California,418,243,67,846,medium,long,high,low,Good,No,Yes,medium,medium,low,low,high,6
+463,Earthquake,2016-12-08,36.84613767497536,-121.3177268356763,California,478,454,25,251,medium,long,medium,high,Poor,Yes,No,medium,high,medium,medium,high,7
+464,Hurricane,2016-12-13,46.13962720779723,-111.77293223083514,Alaska,475,880,44,1190,medium,short,medium,high,Poor,No,No,high,high,low,high,medium,5
+465,Hurricane,2016-12-19,33.00793631947539,-87.17132296117592,Alaska,402,727,37,939,fast,medium,high,high,Poor,Yes,Yes,medium,medium,high,medium,medium,8
+466,Flood,2016-12-24,45.57741289778711,-116.319142427436,California,172,472,70,1433,fast,long,high,high,Fair,No,Yes,high,medium,high,high,medium,9
+467,Flood,2016-12-30,42.92732957105433,-94.31881593772276,Alaska,269,501,13,1615,medium,long,high,medium,Poor,No,No,high,low,low,medium,high,8
+468,Flood,2017-01-04,32.15808350730184,-78.33686736738048,Alaska,451,940,56,430,medium,short,low,medium,Poor,No,No,high,high,medium,low,high,7
+469,Tornado,2017-01-10,26.671101322876776,-107.32085263983068,California,139,791,92,588,medium,medium,medium,medium,Good,Yes,No,high,low,low,high,medium,5
+470,Flood,2017-01-15,32.42986172372064,-124.68799906499284,Alaska,213,636,35,1040,fast,short,high,medium,Good,No,Yes,high,medium,low,medium,low,9
+471,Hurricane,2017-01-21,37.27136231984093,-77.63530335042418,Houston,64,616,94,200,fast,long,low,low,Fair,Yes,No,medium,high,medium,high,low,8
+472,Hurricane,2017-01-26,33.405695254506725,-78.20619329360025,Alaska,64,911,30,874,slow,long,high,high,Good,Yes,No,medium,high,high,medium,high,9
+473,Flood,2017-02-01,33.825985878877866,-113.542832965632,New Orleans,455,899,68,1019,medium,long,high,high,Poor,No,Yes,medium,low,high,high,low,7
+474,Hurricane,2017-02-06,38.00400329508351,-98.65668673638986,California,252,446,55,1329,slow,medium,medium,medium,Good,Yes,Yes,high,medium,high,low,medium,7
+475,Earthquake,2017-02-12,42.82775723005402,-100.77167003143752,Austin,391,730,59,1036,slow,long,medium,low,Poor,No,Yes,medium,high,high,high,low,6
+476,Flood,2017-02-17,38.2005111079406,-81.55651596995384,Austin,92,690,67,864,slow,long,high,low,Poor,No,No,medium,low,high,low,low,5
+477,Tornado,2017-02-23,46.2136810375047,-114.62546218617744,Phoenix,425,892,50,1221,slow,medium,low,low,Fair,No,No,medium,medium,high,medium,high,6
+478,Hurricane,2017-02-28,33.84249658094572,-77.28384589996227,Phoenix,59,773,37,1996,slow,short,high,medium,Good,Yes,No,high,high,low,high,low,5
+479,Tornado,2017-03-06,37.728652093696354,-107.1802730614365,Alaska,494,257,15,1646,fast,short,low,high,Fair,Yes,No,medium,high,low,low,high,5
+480,Tornado,2017-03-11,44.619593849024,-71.76291996868608,Phoenix,194,596,46,995,slow,long,high,low,Poor,No,No,medium,low,high,low,low,5
+481,Hurricane,2017-03-17,27.76355517785581,-96.09006223442243,Alaska,394,878,19,465,slow,medium,high,medium,Good,Yes,Yes,medium,high,medium,low,high,8
+482,Tornado,2017-03-22,29.466238461263597,-96.46714546486584,New Orleans,473,386,14,982,slow,medium,low,medium,Fair,Yes,Yes,medium,high,high,low,low,8
+483,Hurricane,2017-03-28,27.68797581807865,-85.50968828424409,Alaska,413,109,83,1271,fast,long,high,high,Good,Yes,No,medium,low,low,high,medium,8
+484,Hurricane,2017-04-02,45.4063299047049,-79.7148567119535,Austin,498,642,64,1344,medium,long,high,low,Good,Yes,Yes,high,medium,high,low,high,8
+485,Earthquake,2017-04-08,33.52769146537685,-93.99269291724146,California,113,175,35,884,medium,long,high,medium,Poor,Yes,Yes,low,medium,medium,medium,high,9
+486,Hurricane,2017-04-13,26.490839128908284,-102.50693310190782,Alaska,276,515,11,1325,medium,long,high,high,Poor,Yes,No,high,medium,medium,low,high,8
+487,Hurricane,2017-04-18,27.397969435463335,-88.71969174960009,Austin,311,288,39,873,slow,long,high,high,Good,No,No,medium,medium,medium,low,low,9
+488,Flood,2017-04-24,30.21192447189104,-112.76339962087596,Houston,341,456,69,1232,medium,medium,high,high,Poor,Yes,Yes,medium,high,high,low,high,8
+489,Flood,2017-04-29,31.015948502426436,-111.49674177113668,Houston,227,954,54,1962,slow,short,high,medium,Fair,Yes,Yes,medium,medium,low,high,high,7
+490,Flood,2017-05-05,41.95331972316386,-85.55434860856926,Alaska,491,368,90,1802,slow,short,high,high,Good,No,No,medium,medium,high,high,high,8
+491,Earthquake,2017-05-10,37.455408076334905,-76.40030343473208,California,406,304,42,528,fast,long,medium,medium,Good,Yes,Yes,medium,medium,low,medium,high,8
+492,Hurricane,2017-05-16,38.544882690871134,-80.47496303673094,New Orleans,55,607,34,1938,slow,long,medium,medium,Good,No,No,high,high,high,medium,low,6
+493,Flood,2017-05-21,45.68084149180619,-104.49204270844696,Houston,495,782,72,1608,medium,short,high,low,Poor,No,No,high,high,high,low,medium,9
+494,Earthquake,2017-05-27,41.172485662146144,-122.53930421063149,California,426,218,43,584,medium,short,high,high,Good,Yes,No,high,high,high,low,high,6
+495,Hurricane,2017-06-01,35.22754508473604,-83.35029757782625,Austin,373,274,21,1167,medium,long,high,low,Poor,Yes,Yes,low,medium,high,high,low,6
+496,Tornado,2017-06-07,39.319215744876,-79.09849190273192,Houston,274,519,34,1531,medium,long,high,medium,Poor,Yes,No,medium,high,high,high,low,9
+497,Hurricane,2017-06-12,42.91994155515988,-119.27706399675505,Alaska,458,687,93,1922,slow,medium,low,medium,Good,Yes,No,high,medium,low,high,low,6
+498,Tornado,2017-06-18,31.98617007197704,-100.61398656019728,Austin,478,451,37,1743,slow,long,medium,medium,Fair,Yes,No,medium,high,low,low,high,9
+499,Earthquake,2017-06-23,40.61430341788885,-123.48155155605396,Phoenix,340,103,24,980,medium,short,medium,high,Poor,Yes,No,medium,low,low,low,medium,5
+500,Hurricane,2017-06-29,49.25414916965036,-88.71143225991612,California,415,183,40,1819,medium,medium,low,high,Poor,Yes,No,high,high,high,high,medium,5
+501,Hurricane,2017-07-04,42.47374197430048,-71.70571152828336,California,176,218,76,1556,slow,medium,medium,medium,Fair,Yes,No,high,high,low,high,low,6
+502,Hurricane,2017-07-10,43.91948871853288,-83.03799882261387,Houston,330,535,21,1601,medium,long,low,medium,Poor,Yes,Yes,low,medium,high,high,high,6
+503,Earthquake,2017-07-15,43.3164842760248,-106.16037996703548,California,266,580,95,451,medium,short,low,high,Good,Yes,Yes,low,high,medium,high,high,9
+504,Hurricane,2017-07-21,48.001963554719325,-112.07580057920296,Austin,336,166,71,295,fast,long,medium,medium,Poor,No,No,medium,medium,low,medium,high,7
+505,Hurricane,2017-07-26,25.784208407476765,-80.07829010329405,California,149,828,47,566,slow,long,high,high,Poor,Yes,Yes,high,low,high,high,low,5
+506,Tornado,2017-08-01,45.86404655077567,-119.88674545903324,Houston,380,588,91,603,medium,long,medium,low,Good,No,No,high,medium,low,low,medium,7
+507,Tornado,2017-08-06,39.6644199009575,-91.5791206351617,Austin,415,484,50,1828,fast,long,high,medium,Fair,No,Yes,medium,low,high,high,high,7
+508,Tornado,2017-08-12,31.294779210989525,-89.6255958812948,Houston,185,965,30,1782,medium,long,medium,high,Fair,No,No,medium,medium,high,medium,high,9
+509,Hurricane,2017-08-17,27.91578636698981,-121.50969146136804,New Orleans,489,629,57,1562,slow,short,medium,high,Fair,Yes,Yes,medium,high,high,low,high,6
+510,Flood,2017-08-23,37.83515254378704,-88.90197936525519,California,170,866,18,944,fast,short,high,medium,Good,Yes,No,medium,medium,medium,high,low,5
+511,Flood,2017-08-28,33.62063702557699,-111.45746735518009,Austin,449,775,61,503,slow,medium,medium,high,Poor,Yes,Yes,high,medium,medium,medium,medium,8
+512,Hurricane,2017-09-03,36.47645736761189,-97.40221880576756,Alaska,412,754,48,964,slow,long,high,high,Good,No,Yes,high,high,medium,high,high,9
+513,Flood,2017-09-08,41.42047066993088,-81.62326616888716,Houston,140,305,70,670,fast,short,high,high,Good,Yes,No,high,high,medium,medium,low,9
+514,Tornado,2017-09-14,44.15453284492217,-80.4454384335166,Phoenix,70,906,88,1280,slow,medium,low,high,Poor,Yes,Yes,high,high,high,medium,medium,9
+515,Flood,2017-09-19,33.61961542351219,-109.42746955735107,Austin,331,188,33,1102,slow,medium,medium,low,Poor,No,No,high,medium,high,high,high,7
+516,Hurricane,2017-09-24,44.68053815994083,-97.7713127953795,Houston,450,503,31,1927,slow,long,low,high,Poor,Yes,No,high,high,low,medium,low,9
+517,Flood,2017-09-30,49.8472664879848,-103.7924716274638,New Orleans,450,887,36,866,slow,long,high,high,Fair,No,Yes,medium,high,high,medium,low,8
+518,Flood,2017-10-05,33.10789051566543,-100.64093650752773,Houston,209,394,18,1772,slow,long,high,high,Fair,No,No,medium,medium,high,low,high,5
+519,Hurricane,2017-10-11,43.14708544615375,-96.10179592993508,California,138,577,39,715,fast,long,high,high,Good,No,No,medium,medium,medium,high,high,9
+520,Flood,2017-10-16,42.43967577603365,-70.53797890175375,California,133,407,30,1864,slow,long,medium,high,Good,No,No,medium,high,medium,medium,low,9
+521,Tornado,2017-10-22,29.4271568309836,-118.5020956405852,Houston,304,599,32,1591,medium,long,low,high,Fair,No,Yes,high,high,low,medium,high,9
+522,Tornado,2017-10-27,27.523124225349225,-111.64190859873146,Houston,92,792,78,1359,slow,short,high,high,Poor,No,No,medium,high,medium,high,high,8
+523,Hurricane,2017-11-02,42.28200245714659,-77.82267670688886,New Orleans,139,895,33,795,slow,long,low,high,Poor,Yes,No,medium,medium,medium,high,low,8
+524,Hurricane,2017-11-07,40.83107869796541,-97.11164169770016,Houston,275,480,19,1381,fast,medium,medium,high,Fair,No,No,medium,low,medium,low,low,6
+525,Tornado,2017-11-13,35.82682442924699,-123.8761484968982,Houston,292,267,98,422,slow,medium,high,high,Good,Yes,Yes,high,medium,medium,low,medium,5
+526,Tornado,2017-11-18,44.41716561421635,-122.02687388192852,Alaska,447,943,67,417,fast,long,low,medium,Fair,No,No,medium,high,medium,low,high,5
+527,Hurricane,2017-11-24,38.54374178182314,-109.94825081277432,Houston,150,112,83,563,medium,medium,high,high,Fair,Yes,Yes,high,medium,medium,low,low,5
+528,Earthquake,2017-11-29,44.95530016789655,-104.82029440317076,Phoenix,410,746,16,1135,medium,medium,medium,low,Good,Yes,No,medium,medium,low,medium,high,9
+529,Tornado,2017-12-05,36.73552973446292,-116.48959658055222,California,451,766,70,296,fast,medium,low,high,Fair,Yes,Yes,medium,medium,medium,low,low,7
+530,Hurricane,2017-12-10,31.385340035586857,-80.39623183850765,Alaska,478,449,52,1375,slow,long,low,high,Poor,Yes,Yes,high,medium,low,high,low,8
+531,Earthquake,2017-12-16,49.70800858722343,-115.80379418268797,California,243,120,92,1545,fast,short,high,medium,Poor,Yes,Yes,low,medium,high,medium,high,7
+532,Earthquake,2017-12-21,35.94643123945291,-78.62324129679911,New Orleans,356,597,60,1489,slow,long,high,high,Fair,No,No,low,medium,high,high,high,6
+533,Tornado,2017-12-27,45.085599499522615,-113.3369536190553,New Orleans,202,873,48,994,slow,long,medium,high,Good,Yes,Yes,medium,medium,medium,high,medium,5
+534,Earthquake,2018-01-01,48.00043075670369,-92.7671852387015,New Orleans,385,407,11,1792,medium,medium,low,high,Fair,Yes,No,low,low,medium,high,medium,8
+535,Tornado,2018-01-07,29.604740905567496,-120.23857050165186,New Orleans,136,400,20,864,medium,short,low,high,Poor,Yes,Yes,high,medium,low,medium,medium,6
+536,Hurricane,2018-01-12,45.54523161967312,-111.80535136739144,Houston,73,187,10,567,medium,long,medium,medium,Fair,Yes,No,medium,high,high,medium,medium,6
+537,Hurricane,2018-01-18,39.34227993520081,-107.88191609312074,Alaska,254,499,27,581,medium,long,high,medium,Fair,Yes,Yes,medium,high,medium,low,medium,8
+538,Earthquake,2018-01-23,33.79984517453409,-117.26130153858372,California,299,585,82,1552,medium,long,high,medium,Fair,Yes,Yes,medium,low,low,medium,high,7
+539,Tornado,2018-01-29,42.984270863191966,-122.324862286136,California,445,762,77,1429,medium,long,high,high,Fair,No,No,low,high,medium,low,low,6
+540,Earthquake,2018-02-03,31.87568800984323,-122.13426788529596,Alaska,453,197,56,401,medium,long,low,low,Poor,No,Yes,high,medium,medium,medium,medium,8
+541,Flood,2018-02-09,33.75102805383376,-124.07812891851944,Austin,195,304,19,890,slow,short,high,high,Good,Yes,Yes,medium,low,low,low,medium,9
+542,Hurricane,2018-02-14,35.645671477084534,-73.9338435004604,New Orleans,484,743,62,1702,slow,long,low,low,Fair,Yes,No,medium,low,medium,high,high,9
+543,Hurricane,2018-02-20,47.396174871539344,-109.24856141664428,New Orleans,166,418,91,681,slow,medium,low,high,Poor,Yes,No,medium,low,medium,high,low,8
+544,Hurricane,2018-02-25,25.81411740038559,-86.66867201187368,Alaska,227,599,96,1635,fast,medium,high,medium,Fair,No,No,medium,high,medium,medium,low,7
+545,Earthquake,2018-03-03,33.505378342278775,-117.87550426138598,Austin,355,948,40,1566,slow,medium,medium,high,Good,No,Yes,medium,high,low,medium,low,5
+546,Flood,2018-03-08,31.29916072606381,-124.00837184876607,Alaska,234,709,55,883,fast,medium,high,medium,Poor,Yes,Yes,low,low,low,medium,medium,7
+547,Hurricane,2018-03-13,41.654014100020646,-84.62626256217291,Houston,421,435,42,1188,fast,long,medium,medium,Fair,No,No,high,high,low,high,medium,8
+548,Hurricane,2018-03-19,26.05161365744881,-98.60059179965172,New Orleans,206,349,44,336,fast,long,medium,high,Good,Yes,No,high,medium,low,low,medium,7
+549,Hurricane,2018-03-24,39.84280929806711,-85.8321866100745,California,352,445,59,437,medium,short,high,high,Good,No,Yes,low,medium,high,high,high,5
+550,Flood,2018-03-30,38.53566233368035,-118.35350819433415,Austin,50,723,31,1268,medium,long,high,low,Fair,No,No,high,medium,low,medium,low,8
+551,Tornado,2018-04-04,29.637043510356108,-121.67267008183904,California,255,696,65,1328,slow,long,high,medium,Poor,Yes,Yes,high,high,medium,high,high,5
+552,Flood,2018-04-10,35.85408623379371,-88.39506823188236,California,101,567,82,582,medium,long,high,low,Poor,No,No,high,low,medium,high,low,5
+553,Hurricane,2018-04-15,40.07534817912735,-113.09134663264902,California,151,557,27,1401,medium,long,low,medium,Fair,No,Yes,medium,high,low,high,low,6
+554,Earthquake,2018-04-21,29.02857861399672,-84.08385871669458,California,442,290,29,1978,medium,medium,high,high,Fair,No,Yes,medium,medium,high,high,high,9
+555,Earthquake,2018-04-26,40.40016230335945,-102.09364622692904,Phoenix,419,191,81,1536,slow,long,medium,high,Good,No,Yes,medium,high,medium,low,high,9
+556,Flood,2018-05-02,43.84953985346608,-86.29031294024652,Phoenix,429,907,42,1735,fast,long,low,medium,Poor,Yes,No,high,medium,high,high,medium,6
+557,Flood,2018-05-07,27.361408840304392,-107.37757132356872,Phoenix,377,732,59,1831,slow,long,medium,medium,Poor,Yes,Yes,medium,high,high,high,medium,8
+558,Tornado,2018-05-13,34.6115711468585,-112.42688694658052,Austin,394,782,62,1548,fast,long,high,high,Good,Yes,Yes,high,medium,high,medium,high,9
+559,Tornado,2018-05-18,38.25195537897362,-86.36680854769997,Alaska,305,145,85,992,medium,long,medium,high,Fair,Yes,Yes,high,medium,high,high,high,8
+560,Earthquake,2018-05-24,47.17601236659068,-91.49625870313758,Houston,201,719,76,340,medium,long,medium,medium,Poor,Yes,No,low,low,low,high,low,9
+561,Tornado,2018-05-29,28.626864491774,-90.82871229202004,Houston,73,963,99,1367,medium,medium,high,high,Good,No,Yes,medium,high,medium,high,low,6
+562,Tornado,2018-06-04,40.34900361241185,-78.24886823476302,Alaska,489,129,76,1403,medium,long,low,high,Fair,Yes,No,low,low,medium,high,high,7
+563,Hurricane,2018-06-09,27.357697691378497,-96.19939923002607,Phoenix,261,176,12,1407,medium,short,medium,high,Good,Yes,No,low,medium,high,low,low,5
+564,Tornado,2018-06-15,42.63487037661852,-120.02471317815996,Alaska,244,276,70,767,slow,medium,high,low,Fair,No,No,high,high,high,high,medium,9
+565,Flood,2018-06-20,34.18495949005773,-78.53324394331423,New Orleans,326,542,85,374,medium,long,medium,low,Good,Yes,No,high,high,high,high,low,6
+566,Tornado,2018-06-26,43.89100615903264,-113.81237335795402,Houston,252,537,44,928,medium,long,medium,high,Poor,No,Yes,medium,low,medium,medium,high,8
+567,Hurricane,2018-07-01,32.78405484599016,-118.7859913705919,Austin,301,319,31,1529,slow,medium,low,medium,Fair,Yes,Yes,low,medium,high,high,high,7
+568,Hurricane,2018-07-07,25.640453342012364,-92.20900739637796,California,172,272,61,1423,medium,medium,low,high,Poor,No,No,medium,high,high,medium,medium,6
+569,Hurricane,2018-07-12,41.5031763129002,-81.20739280855673,Alaska,492,926,57,1684,medium,long,high,low,Fair,No,No,medium,low,low,low,low,8
+570,Tornado,2018-07-18,48.49357047067545,-110.2259215284371,Alaska,237,246,67,1506,medium,long,medium,medium,Poor,No,No,low,low,high,medium,high,8
+571,Tornado,2018-07-23,41.19663378765447,-97.09702446909743,Alaska,184,616,68,1287,medium,medium,medium,medium,Good,Yes,No,high,medium,high,low,high,6
+572,Hurricane,2018-07-29,37.555337976003365,-105.04858526197606,New Orleans,423,149,78,1686,fast,long,high,low,Poor,No,Yes,high,high,high,low,high,8
+573,Earthquake,2018-08-03,41.1555898616261,-90.58303497758573,New Orleans,223,481,50,1596,medium,short,medium,high,Fair,No,Yes,medium,high,low,high,low,8
+574,Tornado,2018-08-09,32.87919363468647,-75.13644262322535,Phoenix,263,106,17,1441,medium,medium,high,medium,Fair,Yes,Yes,medium,low,medium,high,high,5
+575,Hurricane,2018-08-14,32.82973771622672,-100.43251964918043,Alaska,116,388,80,1970,medium,long,low,medium,Poor,No,Yes,medium,medium,high,high,high,7
+576,Earthquake,2018-08-20,34.31511186724979,-107.70539257543686,Houston,226,950,78,501,slow,medium,low,medium,Good,No,No,low,medium,high,medium,medium,6
+577,Tornado,2018-08-25,49.22112705766733,-84.1836241390096,Alaska,90,131,91,1357,medium,short,high,low,Fair,No,No,medium,medium,medium,low,low,6
+578,Earthquake,2018-08-30,33.73778070106688,-74.7730599345641,California,320,371,60,1029,slow,long,medium,high,Good,Yes,No,high,medium,medium,medium,low,6
+579,Flood,2018-09-05,28.28827741533825,-106.69449782409087,California,494,692,91,464,medium,long,low,high,Good,Yes,Yes,low,low,high,high,high,7
+580,Earthquake,2018-09-10,45.03323779341298,-112.94545641541656,New Orleans,218,761,43,380,medium,long,low,medium,Poor,Yes,Yes,medium,high,high,high,medium,5
+581,Tornado,2018-09-16,42.12410151622582,-115.43297088957073,Alaska,50,277,23,1895,medium,long,high,high,Fair,Yes,Yes,medium,low,high,medium,low,8
+582,Tornado,2018-09-21,35.0853273083909,-103.8560811558776,New Orleans,196,157,15,1500,fast,medium,high,high,Fair,Yes,Yes,medium,medium,low,high,medium,7
+583,Flood,2018-09-27,37.07252682592583,-96.55363897952785,Alaska,154,359,28,1134,slow,short,high,high,Fair,Yes,No,medium,medium,medium,medium,high,5
+584,Hurricane,2018-10-02,42.98799141251217,-98.15276681015392,California,413,894,24,1643,fast,medium,low,high,Good,Yes,No,high,low,high,high,low,7
+585,Tornado,2018-10-08,29.43142806830794,-98.3619364596794,Phoenix,435,217,54,797,slow,long,medium,high,Fair,Yes,No,medium,medium,medium,low,medium,8
+586,Hurricane,2018-10-13,34.39460425582283,-106.9269618762595,New Orleans,82,149,64,1323,slow,medium,high,medium,Poor,No,No,high,low,medium,medium,low,5
+587,Hurricane,2018-10-19,26.653504664157584,-120.45682751863365,California,144,867,89,336,fast,long,high,low,Good,Yes,Yes,high,high,medium,medium,high,5
+588,Flood,2018-10-24,33.96031619875711,-119.19402883476572,Phoenix,235,346,36,348,slow,long,high,low,Good,No,Yes,medium,low,low,high,high,9
+589,Tornado,2018-10-30,28.4003601446701,-118.85261578684434,Houston,192,208,69,624,slow,long,high,high,Poor,No,No,high,high,medium,low,high,5
+590,Tornado,2018-11-04,28.012316712363187,-94.93636387688326,Phoenix,158,123,89,1485,medium,long,high,medium,Fair,Yes,No,high,medium,high,medium,high,6
+591,Earthquake,2018-11-10,26.62308868018671,-117.4698857171095,Alaska,452,166,98,976,medium,long,high,high,Good,No,No,high,medium,low,high,medium,7
+592,Tornado,2018-11-15,46.3656771150702,-76.59533638105911,Alaska,110,401,92,1817,fast,long,medium,low,Poor,Yes,No,high,medium,medium,high,low,9
+593,Tornado,2018-11-21,30.744256314734294,-84.44132326165317,New Orleans,268,819,11,745,fast,long,low,high,Fair,No,Yes,high,low,high,high,medium,5
+594,Hurricane,2018-11-26,31.671369833900016,-111.287664894245,Phoenix,269,523,57,1298,slow,short,medium,low,Poor,No,No,high,medium,low,high,low,7
+595,Flood,2018-12-02,44.14012586907887,-103.03436384791252,California,201,786,38,678,fast,long,medium,low,Poor,Yes,No,medium,medium,low,medium,high,6
+596,Earthquake,2018-12-07,29.37631990155598,-79.48441930057939,Alaska,163,448,14,1575,slow,long,medium,high,Poor,Yes,Yes,medium,low,medium,high,medium,7
+597,Earthquake,2018-12-13,25.651204735781597,-119.75010076174097,New Orleans,355,254,57,1709,slow,short,high,high,Good,Yes,No,high,low,medium,low,medium,6
+598,Earthquake,2018-12-18,26.79943981517502,-96.0693299116283,Phoenix,387,969,28,1436,medium,long,high,medium,Poor,Yes,Yes,medium,medium,medium,medium,high,9
+599,Tornado,2018-12-24,48.52969009989409,-95.36331694623816,Alaska,135,705,67,1523,slow,medium,high,medium,Fair,Yes,No,medium,high,medium,medium,low,8
+600,Tornado,2018-12-29,32.0746936722836,-83.39731093186623,California,131,308,61,1137,slow,short,low,low,Fair,Yes,Yes,low,low,medium,medium,high,5
+601,Hurricane,2019-01-04,26.62832628160812,-89.7527960915914,California,443,796,10,537,fast,long,high,medium,Fair,Yes,No,medium,high,high,medium,low,7
+602,Earthquake,2019-01-09,30.627178650511823,-105.7673671446992,Austin,384,969,36,600,slow,long,medium,high,Poor,No,No,high,medium,high,medium,high,8
+603,Hurricane,2019-01-15,38.83515092569653,-107.54862276505798,Phoenix,354,736,55,376,slow,long,high,high,Poor,Yes,No,medium,low,high,high,low,5
+604,Flood,2019-01-20,37.08653805691812,-71.73541645860816,Phoenix,290,752,75,294,medium,medium,high,high,Fair,Yes,Yes,high,high,high,high,high,6
+605,Earthquake,2019-01-26,32.707291007807285,-81.59117138758188,New Orleans,373,547,89,452,slow,long,high,high,Good,No,No,medium,high,low,medium,high,8
+606,Flood,2019-01-31,48.33423784737039,-80.96809895061212,Phoenix,493,494,80,1581,medium,medium,high,high,Good,Yes,No,medium,high,high,medium,low,7
+607,Earthquake,2019-02-05,48.44364647230307,-109.15339679843528,Phoenix,110,529,52,1520,slow,long,high,medium,Fair,No,No,high,high,medium,medium,low,6
+608,Tornado,2019-02-11,36.70939219380148,-117.04590929734776,California,118,859,23,1787,fast,short,low,medium,Fair,Yes,Yes,medium,medium,low,high,high,7
+609,Tornado,2019-02-16,36.18154993657263,-80.67504244759843,Houston,461,560,19,1298,medium,medium,high,medium,Good,No,Yes,high,high,medium,medium,high,9
+610,Tornado,2019-02-22,27.17017089180809,-96.99996974057647,California,493,995,86,1196,fast,medium,medium,high,Poor,No,Yes,medium,medium,high,high,medium,6
+611,Hurricane,2019-02-27,48.88947086854375,-88.07551750725568,Austin,331,344,78,1119,medium,short,high,low,Fair,No,No,medium,medium,medium,low,high,9
+612,Hurricane,2019-03-05,37.85000196695244,-108.3902454716117,Austin,81,398,89,1370,slow,short,medium,low,Good,Yes,No,low,medium,low,medium,high,5
+613,Tornado,2019-03-10,27.08364962010321,-78.71945923580745,New Orleans,306,901,68,699,slow,short,high,high,Fair,Yes,No,medium,medium,high,high,low,8
+614,Tornado,2019-03-16,26.90518938676526,-77.87988237765444,Phoenix,297,600,46,860,slow,medium,medium,high,Good,No,No,medium,high,medium,medium,high,8
+615,Hurricane,2019-03-21,35.993293625620694,-78.43815772505059,Austin,377,988,40,603,slow,long,high,low,Poor,No,No,low,medium,medium,medium,medium,8
+616,Tornado,2019-03-27,45.26041124387649,-110.03260685664164,Phoenix,226,356,73,1859,medium,medium,high,high,Fair,Yes,No,high,high,low,medium,high,7
+617,Tornado,2019-04-01,31.682006492532857,-86.29058995194279,New Orleans,461,165,38,1295,medium,short,high,high,Good,Yes,Yes,medium,medium,low,low,high,5
+618,Flood,2019-04-07,38.147499980823824,-115.80166137796664,Austin,124,694,82,1001,slow,long,high,high,Good,No,Yes,high,high,high,medium,high,6
+619,Flood,2019-04-12,27.090593680475862,-105.878729771115,Alaska,223,552,83,1275,medium,long,high,medium,Fair,No,Yes,high,high,high,high,medium,7
+620,Earthquake,2019-04-18,37.97665591254029,-84.6543556418582,California,276,980,59,894,medium,long,low,medium,Fair,No,Yes,high,high,medium,medium,high,8
+621,Tornado,2019-04-23,47.37628098855821,-71.72652825183131,New Orleans,290,517,43,851,fast,long,medium,high,Poor,Yes,Yes,medium,high,medium,low,high,9
+622,Hurricane,2019-04-29,26.66152157338893,-108.6328021575896,Phoenix,374,828,74,968,medium,medium,high,high,Good,Yes,No,low,low,high,medium,medium,9
+623,Earthquake,2019-05-04,49.305036907859375,-103.62731641249933,Phoenix,484,982,27,1076,medium,long,low,high,Good,Yes,No,low,low,low,high,low,7
+624,Tornado,2019-05-10,35.575474841229,-105.31396357372417,Austin,182,197,66,1165,medium,long,medium,high,Poor,No,No,low,low,medium,high,high,6
+625,Tornado,2019-05-15,28.43112594348789,-89.82377672174965,Austin,162,387,34,1869,medium,medium,medium,high,Good,No,No,medium,medium,medium,high,medium,5
+626,Hurricane,2019-05-21,30.578483391157512,-99.74815563139794,Phoenix,442,331,61,1931,slow,long,high,medium,Poor,Yes,No,high,high,high,high,high,8
+627,Earthquake,2019-05-26,32.85663664974765,-114.47335829781684,Phoenix,341,376,47,873,fast,long,medium,low,Good,Yes,Yes,high,medium,high,high,low,8
+628,Flood,2019-06-01,35.76931668865119,-118.58510792010216,Phoenix,206,945,43,504,medium,short,high,low,Poor,Yes,No,medium,medium,medium,high,high,8
+629,Hurricane,2019-06-06,46.127273142047954,-110.32602249768746,Phoenix,147,689,84,666,medium,long,high,medium,Poor,No,No,low,low,high,medium,low,6
+630,Hurricane,2019-06-12,41.93337799012741,-104.47778933516392,Houston,311,897,84,1943,medium,medium,low,medium,Good,Yes,Yes,medium,high,high,high,high,7
+631,Earthquake,2019-06-17,35.45684317496725,-74.98042849132585,Alaska,82,407,84,329,slow,medium,medium,low,Poor,Yes,Yes,high,high,high,high,high,7
+632,Earthquake,2019-06-23,46.867073875462914,-78.63574241530254,Austin,127,406,12,1252,medium,long,high,high,Poor,Yes,Yes,medium,medium,high,low,low,9
+633,Flood,2019-06-28,25.304762814531216,-99.96969449887226,Austin,152,411,58,848,slow,long,medium,high,Fair,No,No,high,low,high,medium,high,9
+634,Flood,2019-07-04,29.537105652826973,-96.22273572757112,California,237,699,25,589,medium,medium,high,medium,Fair,No,Yes,high,high,high,high,low,9
+635,Earthquake,2019-07-09,42.05136632726958,-90.25500267433095,Austin,442,127,14,1516,slow,short,high,medium,Good,Yes,No,high,medium,high,medium,low,8
+636,Flood,2019-07-15,33.84255347449207,-81.17445912552142,California,225,682,51,727,medium,long,medium,high,Poor,No,No,high,medium,high,medium,medium,7
+637,Tornado,2019-07-20,39.91904169125086,-112.1094459883837,New Orleans,427,558,23,1892,fast,short,medium,high,Poor,No,Yes,low,medium,high,high,high,9
+638,Earthquake,2019-07-25,34.33460781383814,-77.87150218361785,Houston,135,785,47,723,slow,long,high,high,Poor,Yes,No,medium,medium,high,medium,high,7
+639,Flood,2019-07-31,48.31367543629352,-116.93937844317438,Austin,272,719,27,1192,slow,short,high,medium,Poor,Yes,Yes,high,medium,high,low,low,6
+640,Flood,2019-08-05,37.65347291359433,-100.42109306673392,Alaska,373,792,38,765,fast,medium,high,low,Fair,Yes,Yes,low,medium,medium,high,low,6
+641,Flood,2019-08-11,31.167495045415908,-91.6287673654775,Houston,191,498,47,1934,fast,medium,high,high,Poor,No,Yes,medium,medium,high,medium,low,8
+642,Earthquake,2019-08-16,28.904919114820423,-117.89217096441423,Alaska,200,363,60,1898,slow,long,high,low,Poor,Yes,Yes,high,low,low,low,low,8
+643,Earthquake,2019-08-22,26.227434277839663,-122.42163174686952,California,59,559,10,1836,slow,medium,low,high,Good,Yes,Yes,low,low,high,low,low,5
+644,Hurricane,2019-08-27,42.00251682668283,-105.05969082983928,Austin,223,695,59,1684,medium,medium,high,high,Fair,No,Yes,medium,medium,high,medium,low,6
+645,Tornado,2019-09-02,42.55483983011405,-103.17823210671406,New Orleans,229,154,41,806,slow,medium,medium,high,Good,Yes,No,high,medium,high,high,medium,9
+646,Hurricane,2019-09-07,46.58155595154192,-121.18559007793678,Austin,62,929,28,1612,slow,long,high,high,Fair,Yes,No,high,high,low,medium,low,6
+647,Flood,2019-09-13,32.42699852439965,-117.9105335416949,Alaska,252,633,77,1643,slow,long,high,medium,Good,No,Yes,high,medium,medium,low,medium,5
+648,Flood,2019-09-18,31.20839095214648,-109.87178389658,California,73,353,69,1619,fast,long,high,medium,Poor,No,Yes,medium,medium,low,medium,high,8
+649,Earthquake,2019-09-24,30.0168595630249,-83.69144086530079,Houston,109,155,20,1956,fast,medium,low,low,Fair,No,Yes,medium,medium,low,high,medium,8
+650,Hurricane,2019-09-29,44.98517956815971,-104.57901923578991,California,186,702,25,1926,medium,long,high,medium,Good,Yes,Yes,high,low,medium,high,medium,6
+651,Tornado,2019-10-05,44.55341255295264,-73.00789442190566,New Orleans,297,505,54,1324,slow,medium,high,medium,Fair,Yes,No,low,medium,high,high,high,9
+652,Earthquake,2019-10-10,41.96694966448784,-78.50573668290065,California,167,837,67,1667,medium,long,high,high,Fair,No,Yes,medium,low,high,medium,low,8
+653,Tornado,2019-10-16,48.90229035426204,-96.46251407930488,California,105,686,37,644,slow,long,high,high,Good,No,Yes,low,high,medium,medium,high,9
+654,Earthquake,2019-10-21,44.519741566752685,-99.4467235618042,Phoenix,281,784,19,1138,medium,long,high,high,Fair,Yes,Yes,high,medium,low,low,medium,5
+655,Tornado,2019-10-27,28.3276700657654,-113.92031582284548,New Orleans,283,290,81,1141,slow,long,high,low,Poor,Yes,Yes,medium,high,low,high,high,5
+656,Tornado,2019-11-01,33.206122587614345,-75.56654434154385,Alaska,75,356,79,829,medium,long,high,high,Fair,Yes,No,high,low,high,high,medium,5
+657,Tornado,2019-11-07,41.62850490403905,-110.250443457245,Alaska,258,297,52,291,slow,medium,medium,medium,Fair,No,No,medium,medium,high,medium,high,7
+658,Hurricane,2019-11-12,35.60493976389105,-72.80683843485747,California,72,453,76,1594,slow,long,high,low,Good,No,Yes,medium,medium,high,high,low,8
+659,Tornado,2019-11-18,25.31614376131625,-115.76680398411024,Austin,178,490,35,1219,slow,long,high,high,Poor,No,No,high,high,low,high,medium,7
+660,Earthquake,2019-11-23,46.46476463749552,-98.72996185955724,Austin,127,503,25,1770,medium,medium,medium,high,Good,Yes,Yes,medium,low,high,high,medium,8
+661,Tornado,2019-11-29,44.08044355750479,-100.33431453429338,New Orleans,67,785,98,718,slow,long,medium,low,Good,No,No,high,low,medium,medium,low,9
+662,Tornado,2019-12-04,28.7278850413362,-113.2321207170622,Houston,484,209,33,497,medium,long,low,high,Fair,Yes,Yes,high,medium,low,high,medium,8
+663,Flood,2019-12-10,36.28115981065728,-119.93748338566988,New Orleans,245,295,36,1437,medium,long,medium,medium,Fair,No,No,high,low,medium,low,high,7
+664,Tornado,2019-12-15,39.42840576997092,-115.54773325011972,Houston,401,401,79,755,slow,long,low,high,Poor,Yes,Yes,high,high,low,medium,high,6
+665,Hurricane,2019-12-21,35.9820689676485,-121.59638066768991,New Orleans,130,874,85,1799,slow,long,high,medium,Good,No,Yes,high,high,low,medium,high,8
+666,Flood,2019-12-26,49.15925220782559,-118.27401619883798,Alaska,107,665,79,1923,slow,long,low,high,Good,No,No,medium,medium,low,medium,low,6
+667,Tornado,2020-01-01,34.8617712666112,-85.10698698857672,California,143,163,36,1680,medium,long,low,low,Fair,Yes,No,medium,high,medium,high,low,6
+668,Earthquake,2020-01-06,49.42629640004806,-83.5833030871928,Austin,79,969,12,741,medium,long,medium,medium,Fair,Yes,No,high,low,low,medium,medium,9
+669,Hurricane,2020-01-11,44.84137600420405,-105.13115770429602,Phoenix,200,244,68,1142,slow,medium,high,high,Good,No,Yes,high,high,medium,medium,medium,9
+670,Earthquake,2020-01-17,35.56283467341332,-88.39368682680202,California,478,540,43,919,slow,long,medium,high,Poor,No,Yes,medium,medium,low,low,high,7
+671,Tornado,2020-01-22,35.59852540463589,-112.55851783663786,Phoenix,449,919,22,1271,slow,long,high,medium,Fair,Yes,No,medium,medium,medium,medium,low,6
+672,Earthquake,2020-01-28,28.917845319683483,-84.03174720551976,Phoenix,119,683,57,658,fast,medium,medium,medium,Poor,Yes,Yes,high,high,low,low,high,8
+673,Tornado,2020-02-02,36.00324343457742,-82.8613565060371,New Orleans,74,260,24,1127,slow,long,high,high,Good,Yes,No,high,high,medium,low,medium,6
+674,Hurricane,2020-02-08,43.15793917787528,-87.35420244893069,Phoenix,350,722,11,1398,slow,long,high,medium,Poor,No,Yes,high,high,high,medium,low,5
+675,Hurricane,2020-02-13,26.35453206338284,-96.0463712997518,Houston,305,613,96,1792,slow,long,high,high,Poor,No,No,low,high,medium,low,low,7
+676,Hurricane,2020-02-19,36.79583260661664,-70.20652452469633,New Orleans,173,482,61,439,fast,long,medium,medium,Fair,Yes,Yes,medium,high,high,high,low,9
+677,Hurricane,2020-02-24,30.22937749236918,-81.92264957580807,New Orleans,325,613,82,565,slow,long,medium,medium,Poor,Yes,No,low,medium,high,high,medium,9
+678,Earthquake,2020-03-01,46.90962727795877,-71.77412533894221,Phoenix,295,294,18,873,slow,short,high,medium,Good,No,No,low,medium,low,high,high,6
+679,Tornado,2020-03-06,33.51367468209402,-118.33201049683584,Phoenix,185,541,72,511,medium,long,high,high,Good,Yes,Yes,high,medium,low,low,medium,9
+680,Flood,2020-03-12,46.50775748091464,-117.49374621066936,New Orleans,204,265,78,1162,medium,long,high,high,Poor,No,No,high,medium,medium,high,high,9
+681,Flood,2020-03-17,35.0260376922169,-102.6985866578792,Alaska,176,385,94,526,medium,long,high,medium,Good,Yes,Yes,high,high,medium,medium,high,9
+682,Flood,2020-03-23,30.901479794209045,-90.02096485940325,New Orleans,201,810,91,488,slow,medium,high,medium,Good,Yes,Yes,high,medium,medium,medium,high,5
+683,Hurricane,2020-03-28,29.501507249426243,-112.68934627052025,California,53,462,47,795,slow,medium,low,medium,Fair,Yes,No,low,medium,high,low,low,6
+684,Flood,2020-04-03,31.401010863904958,-111.10708103170872,Alaska,209,269,68,1445,fast,medium,medium,low,Poor,No,Yes,medium,medium,low,low,medium,7
+685,Hurricane,2020-04-08,32.458008458954964,-98.13550370890472,California,388,276,66,1094,fast,medium,high,high,Good,No,No,medium,high,low,high,high,6
+686,Earthquake,2020-04-14,43.70054603195389,-119.3214825717258,California,215,592,45,1014,slow,medium,high,high,Good,No,No,medium,high,high,high,low,6
+687,Flood,2020-04-19,36.817636984943015,-85.95010150694475,Phoenix,361,886,26,207,fast,long,high,high,Poor,No,Yes,medium,medium,low,low,low,9
+688,Hurricane,2020-04-25,39.26547161332908,-89.64875064511224,New Orleans,187,244,80,747,medium,medium,medium,medium,Fair,Yes,Yes,medium,low,high,low,high,7
+689,Earthquake,2020-04-30,26.03652937690988,-91.16984200579051,Alaska,299,967,74,903,slow,long,low,medium,Poor,Yes,No,high,medium,medium,low,medium,9
+690,Tornado,2020-05-06,37.08335342749152,-94.34511313887198,Austin,465,958,51,1691,fast,long,medium,low,Poor,Yes,No,high,low,medium,high,high,8
+691,Hurricane,2020-05-11,30.99344586837164,-114.44794767257297,New Orleans,491,872,87,1538,medium,medium,medium,high,Fair,Yes,No,high,high,medium,low,high,6
+692,Earthquake,2020-05-17,45.48294876248728,-90.93046344298924,Alaska,101,511,64,1309,medium,medium,low,low,Good,Yes,Yes,high,medium,medium,medium,high,7
+693,Earthquake,2020-05-22,49.01887928518565,-82.237695612788,Houston,329,771,90,1921,medium,long,low,high,Poor,No,No,high,high,medium,high,high,8
+694,Flood,2020-05-28,26.40491493857088,-99.41269407911302,Phoenix,275,869,24,1910,medium,long,high,low,Fair,No,Yes,low,medium,low,low,high,6
+695,Tornado,2020-06-02,49.69663992389012,-115.81920587250622,Houston,241,211,75,1726,slow,long,high,medium,Poor,Yes,Yes,medium,high,medium,low,high,5
+696,Flood,2020-06-08,47.22677166383134,-112.9602529482675,Austin,251,635,89,751,fast,long,low,medium,Poor,No,Yes,high,medium,high,medium,low,9
+697,Tornado,2020-06-13,42.65774456555496,-71.37088145670509,New Orleans,144,134,45,1623,slow,short,low,low,Poor,No,Yes,medium,low,medium,medium,high,9
+698,Flood,2020-06-18,37.95831206524038,-80.99289703835592,Austin,232,673,69,1847,slow,medium,high,high,Fair,Yes,No,medium,low,medium,high,medium,6
+699,Earthquake,2020-06-24,45.57768880278101,-88.96768108460518,Austin,325,573,69,1326,slow,long,high,medium,Fair,Yes,No,low,medium,medium,medium,low,8
+700,Tornado,2020-06-29,37.34389210357405,-118.0319460002629,Alaska,364,942,46,1812,fast,long,medium,medium,Good,No,No,high,high,medium,high,medium,9
+701,Flood,2020-07-05,43.264932934579925,-120.03361910005688,California,305,216,29,1181,slow,long,high,high,Good,Yes,Yes,low,medium,high,low,high,7
+702,Tornado,2020-07-10,46.27499738294101,-104.45896046615344,Austin,101,719,59,1302,medium,long,high,low,Poor,No,Yes,high,high,low,low,medium,8
+703,Hurricane,2020-07-16,44.56535174098424,-81.99324696724322,New Orleans,77,804,11,1961,fast,medium,low,medium,Fair,No,No,medium,medium,medium,high,low,5
+704,Tornado,2020-07-21,31.426485969459986,-102.8142088628136,Austin,337,515,50,1204,fast,medium,high,low,Poor,No,Yes,high,medium,high,medium,low,5
+705,Flood,2020-07-27,48.84655105239953,-91.60593284240936,Houston,475,210,73,1398,medium,long,high,medium,Good,No,No,medium,high,medium,medium,low,9
+706,Hurricane,2020-08-01,34.66571039130703,-73.60992133527151,Alaska,105,459,95,956,fast,long,high,high,Fair,Yes,Yes,high,medium,high,high,high,6
+707,Hurricane,2020-08-07,34.67966010828236,-101.58068270809405,New Orleans,494,809,84,563,medium,short,low,high,Poor,Yes,Yes,medium,high,medium,medium,low,7
+708,Hurricane,2020-08-12,44.68756992453065,-87.37479191912553,California,461,883,11,286,fast,long,high,high,Poor,No,Yes,high,medium,high,medium,medium,9
+709,Tornado,2020-08-18,29.160924589611646,-84.19851229364465,California,228,756,59,1109,medium,medium,high,medium,Poor,Yes,No,high,low,medium,high,low,5
+710,Hurricane,2020-08-23,27.60372745728088,-100.7175560568264,New Orleans,91,414,60,1044,fast,long,low,low,Good,No,No,medium,low,medium,high,low,6
+711,Flood,2020-08-29,28.34358477590117,-104.06585168133222,Alaska,147,240,87,1729,medium,medium,high,medium,Good,No,No,medium,high,medium,medium,medium,5
+712,Hurricane,2020-09-03,42.77351739802222,-83.62222687615233,Phoenix,493,267,93,1935,medium,long,low,medium,Good,Yes,No,high,medium,high,low,high,9
+713,Hurricane,2020-09-09,35.98372549502579,-72.3343289228115,New Orleans,483,448,84,446,fast,short,low,medium,Poor,No,Yes,low,medium,high,low,low,8
+714,Hurricane,2020-09-14,42.50196552768196,-78.92341427876022,Houston,141,890,77,1843,medium,medium,high,low,Poor,No,No,medium,low,high,medium,medium,6
+715,Earthquake,2020-09-20,33.697634837503884,-97.79387758684976,New Orleans,253,434,56,654,slow,long,high,high,Fair,Yes,Yes,medium,high,medium,low,medium,7
+716,Tornado,2020-09-25,32.5137748090234,-82.33472428346838,New Orleans,251,674,62,433,slow,long,low,medium,Poor,Yes,Yes,medium,medium,medium,medium,medium,5
+717,Flood,2020-10-01,44.202763446461006,-120.56938022672774,Austin,171,906,22,1165,medium,medium,high,high,Fair,Yes,No,high,low,medium,low,high,9
+718,Tornado,2020-10-06,41.80078122847562,-124.45885516018,California,299,242,72,1266,fast,long,high,high,Poor,Yes,No,high,low,high,medium,high,9
+719,Flood,2020-10-12,37.586467965041685,-81.73941419709962,Austin,383,559,27,313,slow,medium,low,low,Poor,Yes,No,high,medium,low,low,high,8
+720,Hurricane,2020-10-17,29.934491131128397,-94.2832331474695,Austin,372,677,13,1788,slow,long,medium,high,Poor,No,No,medium,low,medium,low,low,8
+721,Tornado,2020-10-23,41.34894660315801,-79.77153168272575,Alaska,253,354,81,551,slow,long,medium,medium,Poor,Yes,Yes,medium,high,low,medium,high,8
+722,Hurricane,2020-10-28,31.695608629453684,-121.23578968884432,Alaska,481,985,91,1440,slow,long,medium,medium,Poor,No,No,medium,medium,high,high,high,9
+723,Hurricane,2020-11-03,48.693478383275846,-116.00178006585732,Houston,320,608,18,1430,slow,long,high,medium,Fair,Yes,Yes,medium,high,low,low,high,9
+724,Flood,2020-11-08,42.07910129766931,-82.04378459132249,Houston,86,438,58,1492,fast,long,medium,low,Fair,Yes,Yes,high,high,low,low,low,8
+725,Hurricane,2020-11-14,32.903786955734624,-80.83062811879549,Alaska,489,694,53,1844,slow,long,high,medium,Good,No,No,medium,low,medium,medium,high,5
+726,Hurricane,2020-11-19,39.84940561181918,-73.40104483954596,Alaska,267,138,72,877,medium,long,medium,low,Good,No,No,high,medium,medium,low,low,6
+727,Flood,2020-11-25,29.449041075266354,-114.93159588537046,Houston,115,186,51,983,medium,long,high,low,Fair,No,No,low,low,high,medium,medium,6
+728,Hurricane,2020-11-30,46.666553180576216,-91.17607475030483,Austin,150,873,60,223,medium,medium,high,high,Fair,No,Yes,high,low,medium,low,high,6
+729,Tornado,2020-12-05,37.885292337138296,-81.81749990835883,Austin,198,863,48,1899,slow,long,high,low,Good,Yes,Yes,medium,medium,low,low,low,5
+730,Tornado,2020-12-11,28.30551058265937,-115.33483959060148,New Orleans,388,275,22,1856,medium,long,medium,medium,Good,No,Yes,high,medium,high,high,low,6
+731,Hurricane,2020-12-16,44.66539842037872,-84.58714065322337,Houston,286,880,73,1106,fast,medium,high,high,Poor,Yes,No,high,medium,low,high,high,6
+732,Hurricane,2020-12-22,38.82016800577278,-93.71171730360956,Phoenix,438,603,10,1341,fast,medium,high,high,Good,Yes,Yes,medium,high,high,low,low,6
+733,Flood,2020-12-27,29.006824142708258,-121.98475519770903,California,366,591,95,1698,fast,medium,low,low,Good,Yes,No,medium,high,low,medium,high,8
+734,Earthquake,2021-01-02,47.97230660206181,-83.59180411372546,Alaska,113,514,60,961,medium,long,medium,high,Good,No,Yes,low,high,medium,medium,medium,6
+735,Tornado,2021-01-07,47.336049174150325,-99.95034893030942,Houston,475,242,14,346,medium,medium,high,high,Good,Yes,No,medium,medium,medium,high,medium,6
+736,Earthquake,2021-01-13,28.52453801168897,-74.94287335719959,Phoenix,471,881,15,1367,medium,medium,medium,medium,Fair,Yes,Yes,medium,medium,medium,high,low,5
+737,Hurricane,2021-01-18,27.218106738581348,-71.78743846986205,Austin,96,770,26,1787,medium,long,high,medium,Poor,Yes,Yes,medium,medium,high,high,high,9
+738,Earthquake,2021-01-24,34.08744535086372,-87.54713361284647,California,307,867,33,1985,fast,medium,high,high,Poor,No,No,high,high,low,high,high,6
+739,Earthquake,2021-01-29,26.63945520345028,-91.98705936455138,Austin,368,348,64,1124,slow,medium,high,low,Fair,No,No,low,medium,medium,medium,high,9
+740,Tornado,2021-02-04,46.27883463964172,-113.97506326333225,Houston,51,158,13,1067,slow,short,medium,high,Poor,No,Yes,medium,low,high,high,medium,8
+741,Flood,2021-02-09,39.321399156577634,-82.37151094274111,Alaska,174,569,99,762,slow,long,high,low,Poor,Yes,No,medium,medium,medium,medium,medium,8
+742,Tornado,2021-02-15,40.87499326323889,-98.91431293735282,Alaska,293,750,27,1227,medium,long,medium,high,Good,No,Yes,medium,low,high,low,high,7
+743,Earthquake,2021-02-20,37.541509769738525,-103.89026540804976,Phoenix,314,912,74,428,medium,short,high,high,Poor,No,No,medium,high,medium,low,high,7
+744,Earthquake,2021-02-26,37.40522567924768,-122.07137750761495,California,196,456,92,1726,slow,long,high,medium,Poor,Yes,Yes,medium,medium,high,high,low,6
+745,Hurricane,2021-03-03,37.96701194295534,-81.09727183306902,Alaska,386,780,41,1216,medium,long,medium,high,Fair,No,Yes,high,low,medium,high,high,7
+746,Tornado,2021-03-09,49.943430077166106,-81.91935469461257,New Orleans,111,725,88,477,fast,long,medium,medium,Poor,No,Yes,medium,low,medium,high,medium,6
+747,Hurricane,2021-03-14,35.733165555393995,-97.64465666890024,California,116,909,37,1038,slow,long,low,medium,Good,Yes,No,medium,medium,medium,medium,medium,6
+748,Tornado,2021-03-20,33.62841243941884,-122.64846297392656,Alaska,52,196,86,1575,medium,medium,low,high,Good,Yes,Yes,medium,medium,medium,high,medium,5
+749,Tornado,2021-03-25,27.032059174274117,-100.97326025050526,Phoenix,133,384,91,1046,medium,long,low,low,Fair,No,Yes,high,high,medium,high,low,9
+750,Earthquake,2021-03-31,41.52796473398071,-121.72078776463448,Phoenix,427,667,43,1235,fast,medium,high,high,Fair,Yes,Yes,medium,medium,high,low,low,7
+751,Earthquake,2021-04-05,32.46601170784413,-80.97295356238263,Austin,183,650,10,1074,slow,short,high,medium,Good,Yes,No,high,medium,high,low,low,5
+752,Hurricane,2021-04-11,28.22936931419197,-91.7493537003014,Phoenix,71,611,40,558,medium,long,high,high,Fair,No,No,medium,high,low,medium,high,6
+753,Tornado,2021-04-16,44.20698876492126,-98.037214963356,Austin,461,694,20,1941,fast,medium,low,medium,Fair,No,No,high,medium,medium,low,high,5
+754,Earthquake,2021-04-22,46.872178153560014,-84.42866236226011,Houston,413,793,38,1916,slow,short,medium,medium,Good,Yes,Yes,medium,high,medium,high,high,7
+755,Hurricane,2021-04-27,38.75333410404719,-108.18996229306067,Phoenix,56,648,46,205,medium,medium,high,high,Poor,No,No,low,medium,high,high,low,5
+756,Tornado,2021-05-03,40.56954340511363,-83.00142189319293,New Orleans,420,361,68,389,medium,long,high,high,Fair,Yes,Yes,high,low,medium,low,medium,5
+757,Flood,2021-05-08,46.58413567999183,-103.08370707694002,New Orleans,362,123,68,852,fast,medium,high,high,Good,No,No,high,high,high,low,high,7
+758,Earthquake,2021-05-13,48.91619573596533,-109.3795417478972,Alaska,112,111,79,1566,slow,short,medium,low,Fair,No,No,medium,medium,high,medium,high,6
+759,Earthquake,2021-05-19,40.71772209172048,-121.86113752854328,Alaska,379,277,92,274,slow,medium,medium,medium,Good,No,No,high,medium,medium,medium,high,6
+760,Earthquake,2021-05-24,44.93811109687963,-99.00121961428276,Alaska,498,542,15,1532,fast,medium,high,high,Poor,No,No,high,high,high,medium,low,8
+761,Earthquake,2021-05-30,30.24214099383525,-83.52116969087415,Austin,63,204,85,205,fast,long,high,high,Poor,Yes,No,medium,low,low,low,low,9
+762,Flood,2021-06-04,27.21271569927655,-74.25087387000468,California,441,729,51,1695,medium,short,high,high,Fair,No,No,medium,medium,high,high,low,7
+763,Flood,2021-06-10,42.97244206481243,-98.3828158285659,California,293,751,35,1846,fast,long,high,high,Poor,Yes,Yes,medium,medium,high,low,medium,6
+764,Earthquake,2021-06-15,39.1410533972707,-76.15655808540882,California,94,973,40,573,slow,long,low,high,Poor,Yes,No,high,high,low,low,high,9
+765,Earthquake,2021-06-21,38.15668183590767,-71.93255894461473,California,405,882,61,1438,slow,medium,high,medium,Poor,Yes,No,medium,medium,low,high,high,6
+766,Hurricane,2021-06-26,28.35355011049577,-118.46302295367332,Phoenix,433,302,95,1306,medium,long,medium,medium,Poor,Yes,No,medium,low,medium,low,medium,6
+767,Earthquake,2021-07-02,46.0278516644687,-92.25064655669613,California,132,676,61,726,slow,medium,low,low,Good,Yes,Yes,high,medium,medium,high,high,7
+768,Flood,2021-07-07,26.38785147371467,-77.72179702092731,Alaska,344,346,15,211,slow,long,low,high,Fair,No,No,low,medium,medium,low,medium,9
+769,Hurricane,2021-07-13,34.8330422116817,-119.2102358763741,Phoenix,88,565,30,1295,medium,medium,high,high,Good,Yes,No,medium,high,medium,medium,low,5
+770,Hurricane,2021-07-18,34.314744802851905,-120.15253532982224,Austin,153,471,92,887,medium,short,low,high,Good,Yes,No,medium,medium,medium,low,high,6
+771,Earthquake,2021-07-24,45.5769717200744,-110.39411760537143,Houston,80,257,44,1565,medium,long,high,high,Good,Yes,Yes,high,high,high,low,medium,8
+772,Hurricane,2021-07-29,37.38065997870357,-103.53193911293069,Alaska,201,331,69,1416,medium,medium,low,high,Poor,Yes,Yes,low,high,medium,low,high,5
+773,Hurricane,2021-08-04,29.21435664609855,-75.1479672098208,Phoenix,413,981,40,1894,fast,medium,high,high,Poor,Yes,No,high,medium,low,high,high,8
+774,Tornado,2021-08-09,32.730174103161794,-84.43099407368068,California,165,710,75,936,slow,long,high,high,Poor,Yes,Yes,medium,medium,medium,high,high,5
+775,Tornado,2021-08-15,48.14030743269454,-113.9742597693214,Alaska,402,994,48,1027,slow,short,high,low,Fair,No,Yes,medium,high,low,medium,high,7
+776,Tornado,2021-08-20,39.82889144607981,-92.79448031415374,Alaska,339,683,94,731,medium,long,high,medium,Fair,Yes,No,high,high,medium,high,low,9
+777,Earthquake,2021-08-26,34.94968638395844,-92.23272099049044,California,178,454,62,850,fast,long,high,low,Fair,Yes,No,high,medium,low,high,low,8
+778,Flood,2021-08-31,28.79531683632459,-122.96617151764885,Alaska,227,505,86,959,fast,medium,high,low,Poor,No,No,high,medium,medium,low,high,6
+779,Earthquake,2021-09-06,25.054410617273,-115.0207569049138,Austin,359,956,29,377,medium,short,high,low,Good,No,Yes,high,medium,high,medium,high,5
+780,Earthquake,2021-09-11,39.41130084939188,-99.72926721354548,New Orleans,337,242,44,792,medium,long,medium,medium,Good,No,Yes,high,high,low,high,low,5
+781,Earthquake,2021-09-17,32.18554251427505,-115.14787958978336,New Orleans,473,434,68,1447,fast,long,high,high,Poor,No,No,high,medium,high,high,low,5
+782,Hurricane,2021-09-22,49.01262024825528,-101.99943506095,Phoenix,183,176,21,1252,slow,short,high,medium,Fair,Yes,No,low,medium,medium,medium,high,8
+783,Hurricane,2021-09-28,32.505950538629094,-97.02430912889568,Phoenix,467,122,55,1777,slow,medium,medium,high,Poor,No,Yes,medium,medium,medium,low,high,7
+784,Hurricane,2021-10-03,28.889523595376584,-108.01534541446094,Houston,484,689,52,402,medium,medium,low,low,Good,Yes,Yes,medium,medium,medium,medium,high,6
+785,Earthquake,2021-10-09,39.78974984268747,-111.98196985603175,Alaska,247,794,80,818,slow,short,low,high,Poor,Yes,Yes,low,high,high,low,high,7
+786,Hurricane,2021-10-14,33.26759620249895,-115.66071147717888,California,122,564,84,935,fast,short,low,low,Poor,No,Yes,medium,low,high,high,medium,9
+787,Earthquake,2021-10-20,26.719090013159157,-88.93402308543637,Houston,250,427,73,831,medium,medium,low,high,Fair,Yes,No,medium,low,medium,low,high,9
+788,Tornado,2021-10-25,46.28600427973914,-89.48645826421338,Houston,164,445,14,1993,medium,long,high,low,Fair,No,Yes,low,medium,medium,high,medium,6
+789,Hurricane,2021-10-30,29.54673801443593,-123.37002288734216,Phoenix,316,818,75,407,medium,long,medium,high,Fair,No,Yes,medium,medium,medium,medium,high,5
+790,Tornado,2021-11-05,38.95301770090864,-100.9724633652566,New Orleans,246,276,16,1179,slow,medium,high,medium,Good,Yes,No,high,medium,high,medium,high,8
+791,Earthquake,2021-11-10,44.10806671509136,-79.20464308675606,California,375,910,39,1513,slow,long,low,high,Good,Yes,Yes,high,medium,medium,low,high,5
+792,Earthquake,2021-11-16,37.02859850860055,-105.51287412614658,New Orleans,138,431,97,1453,slow,medium,low,low,Good,Yes,Yes,high,high,high,low,high,5
+793,Earthquake,2021-11-21,26.394017091264928,-122.60928658976914,Alaska,384,100,19,937,fast,long,high,high,Fair,No,No,low,medium,medium,low,low,5
+794,Earthquake,2021-11-27,41.75600318833304,-105.6790546443618,New Orleans,291,662,75,442,slow,medium,high,medium,Good,No,Yes,medium,low,medium,medium,low,7
+795,Flood,2021-12-02,33.185701242928985,-109.45083689121115,Houston,244,689,16,331,medium,long,low,high,Fair,No,No,medium,high,medium,low,high,7
+796,Flood,2021-12-08,25.74004221267356,-103.78683503314244,Alaska,325,948,18,1858,slow,long,medium,high,Poor,No,No,low,high,high,low,medium,5
+797,Tornado,2021-12-13,48.20679068096985,-81.94213159502075,California,458,600,82,257,slow,long,low,high,Poor,Yes,Yes,high,medium,medium,medium,medium,6
+798,Hurricane,2021-12-19,46.29681864125628,-78.95281256430124,California,330,883,59,708,slow,long,low,medium,Poor,No,No,high,low,medium,low,high,9
+799,Flood,2021-12-24,36.96881789339502,-119.047949034477,California,417,679,37,1426,fast,long,low,high,Fair,No,No,low,high,high,medium,low,7
+800,Tornado,2021-12-30,49.07221421683638,-72.28152685343471,Phoenix,449,258,57,1506,medium,long,high,low,Poor,No,No,low,high,medium,medium,high,8
+801,Tornado,2022-01-04,36.44636461074972,-123.3839518696616,Alaska,232,916,50,446,medium,long,low,high,Good,No,No,high,high,high,low,high,8
+802,Flood,2022-01-10,35.70773570216355,-110.40130516118715,Austin,418,108,32,1602,slow,long,medium,high,Good,No,No,high,medium,high,high,high,7
+803,Flood,2022-01-15,36.89611838161808,-98.5103075097026,Phoenix,203,691,82,322,medium,long,low,medium,Poor,No,Yes,high,medium,medium,medium,low,9
+804,Flood,2022-01-21,49.528823483178,-115.46551079612924,Austin,172,732,25,355,medium,short,medium,low,Fair,No,Yes,high,high,high,high,high,8
+805,Hurricane,2022-01-26,27.66260290637897,-76.36255744434027,New Orleans,176,124,38,1225,slow,medium,high,high,Poor,Yes,No,low,medium,medium,high,medium,8
+806,Earthquake,2022-02-01,37.47445078482515,-94.22709610342272,New Orleans,104,327,50,418,slow,long,medium,high,Poor,No,No,high,low,medium,low,high,9
+807,Earthquake,2022-02-06,37.63082388314027,-124.352409385078,Alaska,242,278,10,1882,fast,long,high,medium,Poor,No,No,low,high,medium,low,high,9
+808,Tornado,2022-02-12,41.42837925595349,-72.38869623586075,Phoenix,215,360,47,215,slow,medium,low,high,Poor,No,No,medium,medium,medium,medium,medium,7
+809,Flood,2022-02-17,39.51002484793999,-111.86829475933344,California,90,685,12,1864,slow,long,medium,low,Poor,Yes,No,medium,medium,medium,high,low,6
+810,Earthquake,2022-02-23,27.519183985199017,-84.52603891078603,Austin,96,671,72,1267,slow,long,medium,high,Poor,Yes,No,medium,medium,medium,high,low,8
+811,Flood,2022-02-28,49.72060807822151,-78.74389229674985,California,278,943,86,1617,slow,medium,medium,high,Good,Yes,Yes,high,high,high,medium,medium,8
+812,Tornado,2022-03-06,46.92859367755349,-73.58439237516453,Houston,115,439,99,1634,fast,long,low,medium,Fair,No,No,high,high,low,low,high,8
+813,Hurricane,2022-03-11,29.723738189470005,-76.93780338725148,Austin,335,361,15,576,medium,long,medium,medium,Poor,Yes,No,low,high,medium,medium,medium,8
+814,Flood,2022-03-17,49.2319591989123,-115.14872548672147,Austin,353,366,85,1300,medium,long,medium,high,Poor,Yes,Yes,high,medium,low,high,low,6
+815,Earthquake,2022-03-22,46.85209302659524,-115.48595726374433,Houston,208,844,13,1660,medium,long,low,high,Good,Yes,Yes,high,medium,low,high,high,6
+816,Flood,2022-03-28,30.21404937965992,-123.35217568980728,Phoenix,252,326,81,1227,fast,long,high,high,Good,No,Yes,medium,medium,medium,high,high,6
+817,Earthquake,2022-04-02,29.34373888008995,-114.4611915883662,Houston,355,644,28,519,medium,medium,medium,medium,Fair,Yes,No,medium,medium,medium,low,high,6
+818,Earthquake,2022-04-08,32.55374411751768,-113.76576914167114,New Orleans,165,428,98,1908,slow,medium,high,medium,Poor,No,No,medium,medium,medium,high,low,6
+819,Flood,2022-04-13,32.34235736267492,-113.40165329698635,Austin,388,468,12,383,slow,long,high,high,Fair,No,Yes,high,low,high,high,high,5
+820,Tornado,2022-04-18,47.2277741527013,-124.69927822453045,Phoenix,195,202,26,1660,fast,long,high,medium,Poor,Yes,Yes,high,medium,high,high,high,8
+821,Earthquake,2022-04-24,35.48845605672567,-80.4962133800002,Houston,307,281,33,1208,medium,long,high,high,Poor,Yes,No,medium,low,high,low,low,7
+822,Flood,2022-04-29,27.08997083755945,-86.40391210638303,Phoenix,272,384,37,1165,slow,long,high,medium,Poor,Yes,No,high,medium,medium,low,low,6
+823,Hurricane,2022-05-05,28.546742750484945,-101.21440930868968,Alaska,250,104,44,594,slow,medium,medium,medium,Poor,No,No,high,medium,high,medium,low,8
+824,Tornado,2022-05-10,27.16254736201069,-78.47701719683867,New Orleans,203,190,61,1331,slow,long,medium,high,Poor,Yes,No,medium,high,medium,medium,high,5
+825,Tornado,2022-05-16,37.96847270970709,-100.29452293055124,Houston,298,616,97,1224,fast,medium,medium,low,Poor,Yes,No,high,high,high,low,medium,6
+826,Hurricane,2022-05-21,37.745090640434576,-76.53093923452133,Houston,239,202,20,473,fast,medium,high,high,Good,Yes,Yes,high,high,medium,high,high,7
+827,Flood,2022-05-27,46.4842173666414,-106.52186106230668,California,150,452,19,1021,slow,medium,high,medium,Poor,No,Yes,medium,high,medium,low,high,7
+828,Flood,2022-06-01,39.48077908224896,-78.25145462589872,Houston,227,572,31,659,medium,medium,high,high,Good,Yes,No,high,medium,medium,low,high,8
+829,Earthquake,2022-06-07,42.66058783129956,-108.58425882135228,California,180,545,56,1208,slow,medium,low,high,Good,No,Yes,low,low,high,high,medium,8
+830,Flood,2022-06-12,43.43755688381188,-70.87767872869433,Alaska,340,655,69,710,medium,medium,high,medium,Fair,No,No,high,medium,high,low,medium,7
+831,Earthquake,2022-06-18,39.614099802015936,-110.92587541345536,California,200,916,15,1548,fast,long,low,medium,Fair,No,No,medium,high,high,low,high,6
+832,Earthquake,2022-06-23,49.46997900863733,-73.28746322991108,Austin,133,420,65,709,medium,long,high,medium,Fair,No,No,medium,low,high,medium,high,9
+833,Hurricane,2022-06-29,42.06478760037758,-88.76273252735982,Phoenix,157,845,30,937,fast,short,high,high,Poor,Yes,No,high,high,medium,high,low,7
+834,Hurricane,2022-07-04,45.31879706465608,-103.1191707922737,Alaska,496,770,76,638,slow,long,high,high,Poor,Yes,Yes,high,low,medium,high,low,8
+835,Tornado,2022-07-10,30.52650710920243,-93.43485339045966,New Orleans,245,571,43,1562,medium,long,high,high,Poor,No,No,medium,medium,high,high,high,8
+836,Hurricane,2022-07-15,33.014560877433965,-122.68373885762392,Houston,393,552,75,560,slow,long,high,low,Fair,No,No,medium,medium,low,high,high,5
+837,Earthquake,2022-07-21,49.581545650001495,-70.84187573200883,Alaska,446,621,30,1511,slow,medium,medium,medium,Fair,Yes,Yes,low,medium,low,medium,high,7
+838,Earthquake,2022-07-26,44.69032658199983,-92.04591502070268,Alaska,88,769,68,898,slow,long,high,high,Good,Yes,Yes,high,medium,high,low,high,5
+839,Earthquake,2022-08-01,31.652878799106823,-90.12998165184806,Austin,451,588,14,453,slow,short,low,low,Good,Yes,Yes,medium,high,medium,low,medium,9
+840,Flood,2022-08-06,32.07128012604154,-93.01238952150408,Alaska,138,436,38,1541,slow,medium,high,medium,Poor,No,Yes,high,low,high,high,low,6
+841,Hurricane,2022-08-12,29.927585662399537,-100.54486188520248,California,350,899,42,954,medium,long,medium,low,Poor,Yes,Yes,high,medium,medium,low,medium,6
+842,Tornado,2022-08-17,32.708420161533965,-80.30602048911156,Houston,340,823,49,1532,medium,long,high,high,Good,No,Yes,medium,low,low,high,medium,6
+843,Hurricane,2022-08-23,42.912420204947566,-83.44198431535135,Alaska,274,804,18,906,medium,long,medium,medium,Poor,Yes,Yes,low,low,medium,high,low,7
+844,Hurricane,2022-08-28,35.73814314832752,-88.29313445376587,Alaska,63,706,55,1051,slow,long,medium,medium,Good,No,Yes,high,medium,medium,medium,low,8
+845,Tornado,2022-09-03,33.71931754264484,-120.0573925225568,New Orleans,288,936,13,1813,medium,medium,medium,medium,Fair,No,Yes,medium,high,high,medium,low,9
+846,Tornado,2022-09-08,28.852302518851104,-95.8778529378028,Austin,442,761,32,1696,medium,medium,high,high,Fair,Yes,Yes,medium,low,medium,high,high,6
+847,Earthquake,2022-09-14,29.82874526668138,-123.89248233072934,California,175,972,85,919,medium,short,low,medium,Good,Yes,No,medium,medium,medium,medium,high,7
+848,Hurricane,2022-09-19,38.31177128242737,-77.43995951274525,New Orleans,72,906,23,980,fast,medium,high,medium,Good,No,Yes,medium,high,high,high,low,5
+849,Tornado,2022-09-24,39.127026535909785,-88.51916098501846,Alaska,499,441,67,752,slow,long,medium,high,Poor,Yes,No,medium,low,low,medium,medium,9
+850,Earthquake,2022-09-30,36.66425253444329,-76.19347685793716,Houston,480,294,34,1731,slow,long,low,high,Poor,Yes,No,low,low,high,high,high,9
+851,Hurricane,2022-10-05,25.703119081525177,-119.5813474196484,Phoenix,323,648,13,544,slow,medium,high,high,Fair,Yes,No,high,medium,high,low,medium,6
+852,Flood,2022-10-11,33.98669183418981,-80.46586132068589,Alaska,215,397,99,1008,medium,long,high,low,Good,No,Yes,high,high,medium,high,high,9
+853,Hurricane,2022-10-16,30.55619145768184,-112.44704412139076,Austin,411,868,69,1403,medium,long,high,low,Good,No,No,medium,medium,high,medium,high,7
+854,Tornado,2022-10-22,32.74777714030057,-87.41959525260953,Houston,442,525,31,234,slow,short,low,high,Poor,No,Yes,high,low,medium,medium,high,5
+855,Flood,2022-10-27,29.36947859763463,-80.62395426583288,California,440,238,33,1462,fast,long,medium,medium,Fair,Yes,Yes,high,high,high,medium,high,8
+856,Hurricane,2022-11-02,38.99983658937593,-92.22825251035688,Phoenix,431,409,21,1493,medium,long,medium,high,Good,Yes,Yes,high,medium,low,medium,high,9
+857,Hurricane,2022-11-07,49.84811948170808,-104.18630842827704,California,204,897,73,1139,fast,medium,low,high,Poor,Yes,Yes,medium,medium,medium,high,high,5
+858,Hurricane,2022-11-13,46.45948435088221,-84.99706082775535,Alaska,466,600,71,1696,medium,long,high,medium,Good,No,No,medium,high,medium,high,high,8
+859,Earthquake,2022-11-18,27.83131016540593,-83.8711290115186,Houston,172,841,26,1812,medium,long,high,medium,Poor,No,Yes,medium,medium,high,high,high,5
+860,Flood,2022-11-24,45.200084861033766,-123.4016656729002,Houston,283,478,29,285,medium,medium,high,medium,Good,No,Yes,medium,high,medium,medium,low,8
+861,Flood,2022-11-29,38.74585968666843,-76.98695167461149,California,239,165,65,1466,slow,medium,high,low,Fair,Yes,Yes,low,high,medium,medium,medium,8
+862,Earthquake,2022-12-05,39.92749787369336,-105.35343498153262,Alaska,283,997,19,1936,slow,long,high,low,Poor,No,No,medium,high,low,medium,high,6
+863,Tornado,2022-12-10,39.99152095905925,-122.3318115664261,New Orleans,133,413,46,1276,medium,long,high,medium,Fair,No,Yes,high,high,high,low,high,7
+864,Earthquake,2022-12-16,35.066378640917385,-86.87545186596455,New Orleans,203,606,27,348,slow,long,high,high,Fair,No,No,high,high,low,low,high,7
+865,Tornado,2022-12-21,42.62805049150504,-79.72278422722884,New Orleans,110,325,29,1359,slow,medium,high,high,Good,Yes,Yes,medium,low,low,low,medium,5
+866,Tornado,2022-12-27,45.31626591045699,-81.32399532083016,Alaska,489,184,10,916,slow,medium,medium,medium,Poor,No,Yes,low,medium,medium,low,low,5
+867,Hurricane,2023-01-01,27.915446341481942,-122.52616647394125,New Orleans,355,890,32,1317,slow,long,high,high,Poor,No,No,medium,medium,low,low,high,6
+868,Flood,2023-01-07,49.79122858886073,-117.99478476863148,New Orleans,71,455,20,532,slow,medium,medium,high,Fair,Yes,No,medium,high,high,high,medium,7
+869,Tornado,2023-01-12,40.59385566533962,-115.12195735617016,Alaska,451,610,93,1620,medium,long,low,high,Good,No,Yes,medium,high,medium,medium,low,5
+870,Hurricane,2023-01-18,26.93346614147048,-86.3985061276621,Houston,448,754,59,1495,medium,medium,high,high,Fair,Yes,No,high,medium,high,medium,high,9
+871,Earthquake,2023-01-23,33.53906773604894,-100.7589947719042,Houston,150,355,55,580,slow,medium,high,low,Poor,No,No,high,high,medium,high,medium,8
+872,Hurricane,2023-01-29,27.175589153466767,-119.81570766344456,Phoenix,352,547,99,413,medium,medium,high,high,Fair,No,Yes,medium,high,high,high,high,7
+873,Tornado,2023-02-03,48.05822056047116,-118.20699545260052,Alaska,255,580,57,1240,fast,long,high,high,Poor,Yes,Yes,low,medium,low,high,medium,9
+874,Tornado,2023-02-09,47.98157177619804,-95.06501890118616,New Orleans,83,692,80,1929,medium,long,low,high,Good,No,Yes,high,medium,high,medium,medium,6
+875,Flood,2023-02-14,30.11381785892397,-75.91356054647039,California,269,186,84,677,medium,medium,high,high,Poor,No,No,low,medium,high,medium,high,9
+876,Hurricane,2023-02-20,33.11370521985424,-98.36379846488724,Houston,80,543,44,286,slow,short,high,high,Fair,No,No,high,medium,high,low,high,7
+877,Tornado,2023-02-25,43.45831091097381,-89.96502516884527,Austin,204,410,92,1129,medium,medium,high,medium,Poor,No,No,medium,high,high,low,low,7
+878,Earthquake,2023-03-03,30.133812054650758,-88.67379707725996,Houston,287,535,92,379,medium,medium,medium,low,Fair,No,Yes,medium,high,high,low,low,5
+879,Earthquake,2023-03-08,42.71507327029201,-122.9513815268336,Houston,278,463,98,265,medium,long,medium,medium,Fair,No,No,high,medium,medium,medium,low,9
+880,Hurricane,2023-03-13,44.327796782199485,-99.04030155074092,Phoenix,317,160,11,267,medium,long,high,high,Good,No,Yes,low,medium,low,low,high,8
+881,Tornado,2023-03-19,45.35930118182544,-121.61691084956212,Alaska,342,524,88,791,medium,medium,medium,high,Fair,No,Yes,high,medium,medium,medium,high,9
+882,Hurricane,2023-03-24,49.39665023455167,-116.2581361673698,Phoenix,471,835,19,772,medium,long,high,medium,Fair,No,No,high,medium,medium,high,low,5
+883,Hurricane,2023-03-30,48.90590729177244,-97.1585808701604,California,106,135,84,425,slow,long,low,high,Poor,Yes,Yes,high,high,medium,high,low,7
+884,Tornado,2023-04-04,25.50162678401368,-123.85668105853108,Alaska,355,211,54,1710,medium,medium,medium,high,Poor,Yes,Yes,low,medium,high,medium,high,8
+885,Earthquake,2023-04-10,43.87187139486739,-109.56555740316108,California,478,484,62,336,slow,medium,low,low,Poor,No,Yes,medium,medium,low,low,high,5
+886,Tornado,2023-04-15,49.168881763728166,-78.48725770110386,Houston,369,197,47,624,fast,medium,high,low,Poor,Yes,No,low,low,medium,low,low,8
+887,Earthquake,2023-04-21,36.9096852775377,-95.51895270368892,Houston,494,162,79,1423,slow,long,high,low,Fair,No,Yes,low,high,low,high,high,8
+888,Flood,2023-04-26,40.75200584647549,-92.56301690794773,Phoenix,120,297,46,406,medium,medium,high,medium,Poor,No,Yes,medium,medium,medium,high,high,8
+889,Flood,2023-05-02,28.125449263331625,-119.69409179560274,Austin,365,644,33,351,medium,long,medium,medium,Good,No,No,low,high,high,medium,low,7
+890,Hurricane,2023-05-07,37.55926051273104,-122.01826475342487,California,95,897,59,1325,fast,long,high,medium,Fair,Yes,No,low,medium,low,high,medium,7
+891,Hurricane,2023-05-13,35.55974736129751,-107.02678306980334,California,450,537,40,1422,medium,long,low,high,Poor,Yes,Yes,medium,medium,low,high,low,9
+892,Flood,2023-05-18,38.88788183540814,-79.61448821461133,New Orleans,62,258,28,1888,medium,long,high,high,Poor,Yes,No,medium,high,medium,medium,medium,8
+893,Earthquake,2023-05-24,47.79377386348088,-114.1762650928986,Phoenix,113,724,71,1759,medium,long,low,high,Good,No,Yes,medium,low,low,high,medium,7
+894,Earthquake,2023-05-29,40.96417101377626,-95.97896103415142,California,302,217,55,991,slow,long,medium,low,Good,Yes,Yes,high,high,medium,medium,high,7
+895,Earthquake,2023-06-04,44.06222613878151,-124.31586407651002,Houston,299,832,12,1981,slow,long,medium,low,Poor,No,Yes,high,high,high,high,low,6
+896,Tornado,2023-06-09,46.85584125787743,-116.2518881284598,California,366,366,64,276,medium,long,high,medium,Good,Yes,Yes,medium,high,low,high,high,8
+897,Earthquake,2023-06-15,30.03112188364538,-84.7799366206689,New Orleans,330,239,69,1015,fast,medium,high,high,Poor,No,Yes,low,medium,medium,high,low,7
+898,Hurricane,2023-06-20,27.70458167140123,-76.3041232941266,New Orleans,488,381,11,662,fast,long,high,high,Fair,Yes,No,high,low,medium,low,medium,5
+899,Hurricane,2023-06-26,46.75121873176085,-97.66104877835822,New Orleans,142,109,75,932,medium,short,high,low,Fair,No,No,high,medium,high,high,high,6
+900,Hurricane,2023-07-01,47.93356511557028,-123.29457699354704,Phoenix,110,262,82,1743,fast,medium,medium,medium,Fair,Yes,Yes,low,high,medium,low,low,7
+901,Earthquake,2023-07-07,36.89776654025342,-111.92778050145785,Phoenix,310,638,10,1142,medium,short,medium,high,Fair,Yes,Yes,low,high,low,high,low,6
+902,Hurricane,2023-07-12,28.255463668373853,-118.28119759207848,Houston,58,246,72,1588,slow,long,high,medium,Fair,Yes,No,high,high,medium,high,low,7
+903,Hurricane,2023-07-18,28.553942143883887,-75.48855807915209,Alaska,297,652,71,321,slow,short,high,medium,Poor,Yes,Yes,low,low,high,low,low,6
+904,Hurricane,2023-07-23,31.936434571242177,-94.66028411190293,California,385,628,93,988,slow,long,medium,high,Poor,No,Yes,medium,medium,low,high,high,9
+905,Hurricane,2023-07-29,35.63940846689993,-121.90023447475843,California,203,912,37,1668,slow,long,low,medium,Poor,No,Yes,medium,low,medium,low,high,5
+906,Flood,2023-08-03,31.79458598364904,-106.16415610516674,California,268,945,69,955,fast,medium,high,medium,Good,No,Yes,high,high,medium,high,high,9
+907,Tornado,2023-08-09,38.76031710771122,-119.46294222020654,Phoenix,84,824,91,1211,medium,long,high,medium,Good,Yes,Yes,medium,medium,low,low,high,6
+908,Earthquake,2023-08-14,44.2343851822036,-108.05181713883394,Austin,403,251,92,1737,fast,long,high,high,Poor,Yes,No,medium,medium,high,medium,low,7
+909,Hurricane,2023-08-20,47.55596313725832,-102.43767757501202,Alaska,282,609,66,1162,fast,long,high,medium,Good,No,Yes,medium,high,medium,low,high,8
+910,Tornado,2023-08-25,32.8774045776424,-73.59723973697345,Austin,467,726,18,1592,medium,long,low,high,Fair,Yes,No,low,medium,medium,high,high,7
+911,Earthquake,2023-08-30,49.11505512277292,-105.878375033242,New Orleans,363,880,84,820,slow,long,low,high,Poor,No,Yes,medium,low,medium,low,high,8
+912,Flood,2023-09-05,43.03856057167777,-81.75649239314404,Houston,184,787,77,270,slow,long,high,high,Fair,Yes,No,high,high,low,medium,medium,8
+913,Earthquake,2023-09-10,33.58628279969804,-110.18307289180105,Austin,258,742,46,753,slow,long,high,medium,Good,Yes,No,medium,high,high,high,low,8
+914,Earthquake,2023-09-16,47.77865181878148,-71.24616709938172,Houston,262,745,93,475,slow,medium,high,low,Good,Yes,Yes,medium,high,low,medium,high,6
+915,Flood,2023-09-21,47.67949555599235,-94.1685153262472,New Orleans,446,452,81,1388,slow,long,high,low,Good,Yes,Yes,high,high,medium,high,low,5
+916,Flood,2023-09-27,26.425483987327507,-78.25980032899986,Alaska,493,389,41,1599,fast,medium,high,medium,Fair,Yes,Yes,medium,low,low,medium,high,7
+917,Hurricane,2023-10-02,26.355583629525658,-97.60810532880237,Alaska,361,820,45,784,slow,medium,medium,high,Poor,Yes,Yes,medium,low,high,medium,low,5
+918,Earthquake,2023-10-08,28.323389924230813,-121.36193863332788,Houston,331,606,53,351,slow,short,high,low,Fair,No,No,high,high,high,low,high,9
+919,Hurricane,2023-10-13,48.5840393606164,-92.60621528105916,Houston,414,172,99,323,slow,long,medium,high,Fair,Yes,No,high,high,medium,high,low,5
+920,Earthquake,2023-10-19,48.26959046400343,-73.6289651921197,Alaska,340,367,22,1669,slow,medium,high,high,Poor,No,Yes,medium,high,high,medium,high,8
+921,Tornado,2023-10-24,33.594588254116985,-121.34128474593692,Houston,206,663,59,681,slow,short,high,medium,Fair,No,Yes,medium,high,high,high,medium,8
+922,Hurricane,2023-10-30,39.79129218133127,-80.04604653004094,Phoenix,437,552,74,1182,medium,short,medium,medium,Good,Yes,Yes,low,medium,high,low,medium,6
+923,Earthquake,2023-11-04,45.32874356558507,-86.61779469884388,Austin,145,586,69,1698,slow,long,high,high,Fair,No,No,medium,high,low,medium,low,9
+924,Earthquake,2023-11-10,34.15051516305894,-112.8912788232776,Alaska,279,352,14,685,slow,medium,low,medium,Fair,No,Yes,high,high,high,medium,high,8
+925,Hurricane,2023-11-15,32.52338352147397,-120.48724940229448,New Orleans,70,393,63,1765,slow,medium,high,medium,Poor,No,Yes,medium,high,high,high,high,5
+926,Earthquake,2023-11-21,44.4374834359132,-84.3164108751314,California,118,185,73,200,slow,long,low,high,Fair,No,No,medium,medium,low,medium,low,7
+927,Flood,2023-11-26,28.57826387469181,-107.45692488547898,Austin,396,655,26,313,slow,short,medium,high,Poor,Yes,Yes,medium,high,medium,high,medium,6
+928,Hurricane,2023-12-02,30.206334817933893,-77.83207197959885,Alaska,461,782,77,903,medium,long,high,high,Good,No,Yes,high,low,high,high,medium,9
+929,Tornado,2023-12-07,31.22992843030442,-98.43587721049876,Houston,104,834,74,1615,medium,long,high,low,Good,No,No,medium,high,medium,low,medium,5
+930,Flood,2023-12-13,32.68968746974942,-81.53148308381455,Houston,259,167,76,712,slow,medium,high,medium,Poor,Yes,No,medium,medium,medium,high,low,9
+931,Tornado,2023-12-18,27.44934092720872,-118.0031783165,California,341,165,89,368,fast,long,high,high,Fair,Yes,No,medium,low,medium,medium,low,6
+932,Earthquake,2023-12-24,36.64018132278829,-87.45391898112857,Austin,76,784,92,352,slow,long,high,high,Poor,No,Yes,high,high,low,medium,high,5
+933,Hurricane,2023-12-29,25.24593129581632,-121.11192954340964,Austin,368,212,37,1214,fast,long,low,high,Fair,Yes,Yes,high,low,high,low,low,7
+934,Flood,2024-01-04,38.19529116016735,-98.63800290182074,California,431,612,69,771,fast,short,low,medium,Poor,No,Yes,high,medium,medium,medium,high,6
+935,Flood,2024-01-09,40.00657199551317,-107.92909003902118,Houston,366,297,27,1345,fast,long,medium,high,Poor,Yes,No,medium,high,high,high,high,6
+936,Flood,2024-01-15,45.88699102883716,-108.65946344083878,Alaska,116,647,63,1358,slow,long,low,medium,Fair,No,No,medium,medium,high,medium,medium,6
+937,Earthquake,2024-01-20,33.725185894159,-70.5577270448577,Houston,187,767,83,871,medium,medium,medium,high,Good,Yes,No,low,high,medium,low,medium,5
+938,Flood,2024-01-26,38.01657818105272,-74.09255088251342,New Orleans,348,518,29,1374,fast,long,high,medium,Fair,No,No,medium,high,high,high,low,7
+939,Earthquake,2024-01-31,39.50825409290738,-71.61401387343832,Phoenix,231,895,67,1934,medium,long,low,high,Fair,Yes,No,high,high,medium,low,high,6
+940,Tornado,2024-02-05,42.56013211057002,-114.43384808763555,New Orleans,65,600,36,681,fast,long,low,medium,Fair,No,No,medium,high,low,low,low,6
+941,Earthquake,2024-02-11,40.715515256058254,-115.5416492197422,Houston,283,635,22,445,slow,short,medium,high,Poor,No,Yes,high,high,high,high,medium,8
+942,Hurricane,2024-02-16,32.81096188943021,-104.2612815042254,Alaska,126,175,25,1723,fast,short,high,medium,Poor,Yes,No,medium,low,low,high,medium,8
+943,Flood,2024-02-22,41.74942223307363,-74.32934590601687,Alaska,422,662,22,732,medium,medium,medium,high,Fair,Yes,Yes,high,medium,high,low,high,6
+944,Hurricane,2024-02-27,29.50427466134724,-92.40706391502503,Austin,238,506,33,539,slow,long,high,high,Good,No,No,medium,high,low,high,medium,5
+945,Tornado,2024-03-04,29.484518737040847,-117.22900688221875,Alaska,104,176,76,1850,medium,long,high,low,Fair,Yes,No,high,high,high,high,medium,8
+946,Flood,2024-03-09,39.60255122786783,-79.07090309301633,New Orleans,423,528,73,1229,medium,medium,low,low,Poor,No,No,low,medium,high,high,high,7
+947,Earthquake,2024-03-15,41.102655739024655,-79.46899879062144,Houston,484,454,42,942,medium,short,high,medium,Good,Yes,No,high,medium,high,medium,low,9
+948,Hurricane,2024-03-20,29.909283371243284,-84.1581660236827,Houston,109,988,47,401,slow,long,high,high,Fair,Yes,No,high,high,medium,low,medium,5
+949,Tornado,2024-03-26,43.822806173672326,-107.87004545665224,Alaska,450,211,76,1602,medium,medium,high,high,Fair,Yes,No,low,medium,medium,low,high,5
+950,Flood,2024-03-31,46.38061677391674,-90.5970975292892,New Orleans,337,991,96,1799,slow,long,high,medium,Good,No,Yes,medium,high,high,high,high,8
+951,Flood,2024-04-06,35.37813520711169,-116.58203931235091,Alaska,298,659,74,257,medium,long,medium,low,Fair,No,No,low,medium,low,medium,high,9
+952,Hurricane,2024-04-11,32.71102240544763,-100.92033818617062,Austin,364,749,99,241,fast,long,medium,high,Fair,Yes,No,high,medium,low,medium,high,9
+953,Earthquake,2024-04-17,46.478094006812384,-123.64335879525532,New Orleans,211,422,51,1231,medium,long,high,medium,Good,No,No,medium,high,medium,high,low,7
+954,Hurricane,2024-04-22,35.64456328883364,-109.90803302235872,Houston,149,781,38,1023,medium,medium,high,medium,Fair,No,No,high,low,medium,low,high,6
+955,Earthquake,2024-04-28,46.21172293753507,-94.76984240125644,Houston,63,332,75,881,medium,short,low,low,Fair,No,No,high,low,high,low,high,6
+956,Earthquake,2024-05-03,49.0529066469843,-114.82373679096187,Houston,74,109,66,627,slow,long,high,medium,Fair,No,Yes,high,high,high,high,low,5
+957,Earthquake,2024-05-09,32.04478369438211,-100.96099778305428,Houston,279,890,99,1245,fast,long,medium,low,Good,No,Yes,high,high,low,medium,medium,6
+958,Earthquake,2024-05-14,43.96609593077881,-122.35760266767994,Phoenix,162,464,40,724,medium,short,medium,low,Poor,No,Yes,medium,high,medium,medium,high,5
+959,Hurricane,2024-05-20,37.81555592125999,-90.2349185875852,Houston,63,651,47,805,slow,medium,medium,low,Good,No,No,high,high,medium,high,medium,9
+960,Flood,2024-05-25,46.68963613470294,-98.972169231867,Austin,404,867,15,304,medium,long,high,high,Fair,No,Yes,low,high,medium,medium,high,7
+961,Tornado,2024-05-31,29.439628639439228,-109.53255241883024,Houston,410,148,82,318,medium,long,high,medium,Good,No,Yes,medium,low,high,high,medium,7
+962,Flood,2024-06-05,35.09125785886469,-91.73718155603063,Austin,451,758,45,682,slow,medium,low,high,Poor,No,Yes,medium,high,low,high,low,7
+963,Hurricane,2024-06-11,26.47059596184188,-107.48642624619993,Alaska,200,219,98,1120,medium,long,high,high,Good,Yes,Yes,medium,medium,medium,high,high,5
+964,Earthquake,2024-06-16,43.58134629980213,-115.14177849405114,Alaska,407,934,82,294,fast,long,high,high,Fair,No,No,low,high,high,high,medium,5
+965,Hurricane,2024-06-22,31.3923205113396,-101.51726260403046,California,303,980,68,1062,medium,long,medium,low,Good,No,No,high,medium,high,low,low,8
+966,Hurricane,2024-06-27,44.33752672936413,-108.54299983693348,Austin,252,957,82,1663,medium,long,medium,low,Poor,Yes,No,low,medium,medium,medium,low,6
+967,Tornado,2024-07-03,49.7587512451456,-79.73586401714599,Alaska,227,826,11,871,medium,short,high,medium,Good,Yes,No,high,high,low,medium,low,8
+968,Hurricane,2024-07-08,44.218505515120896,-93.7723482983438,Houston,349,390,38,1773,medium,medium,low,low,Fair,Yes,Yes,high,medium,high,high,medium,8
+969,Hurricane,2024-07-14,46.33701271898424,-105.10003058713784,Alaska,426,741,15,1178,slow,short,high,high,Poor,Yes,No,medium,medium,medium,medium,low,7
+970,Hurricane,2024-07-19,41.872505423051095,-96.0454000653213,Phoenix,340,833,84,555,slow,long,low,medium,Fair,No,No,low,high,medium,high,low,7
+971,Hurricane,2024-07-24,38.40282438788434,-73.2959766340248,Alaska,76,534,39,751,medium,long,high,high,Poor,Yes,Yes,high,low,low,low,high,8
+972,Flood,2024-07-30,27.13054764556022,-86.75871163927374,Houston,257,599,96,1228,medium,long,low,high,Good,No,No,low,high,high,high,high,7
+973,Flood,2024-08-04,47.23079803038854,-114.39576389710368,Phoenix,315,603,11,1621,medium,long,low,medium,Good,Yes,Yes,high,high,medium,medium,low,7
+974,Hurricane,2024-08-10,30.872755815692347,-94.6111339625219,Phoenix,355,115,97,1845,slow,long,low,medium,Fair,No,Yes,high,high,low,high,high,9
+975,Hurricane,2024-08-15,33.31304004723643,-111.21579105321467,Austin,401,179,41,928,medium,short,low,medium,Good,No,No,high,high,low,low,medium,8
+976,Flood,2024-08-21,32.11116973609306,-93.60527472779488,Austin,241,317,63,726,medium,long,medium,high,Good,Yes,Yes,high,high,medium,low,low,9
+977,Earthquake,2024-08-26,38.65019128892189,-104.87429058368215,California,394,835,37,851,medium,short,medium,high,Poor,Yes,No,medium,medium,medium,low,medium,5
+978,Earthquake,2024-09-01,43.82737033977946,-121.00165829805212,New Orleans,256,426,45,1808,slow,medium,low,low,Fair,Yes,No,medium,medium,medium,high,low,7
+979,Flood,2024-09-06,45.08797287793077,-124.80279692587874,Houston,53,870,15,1391,medium,long,high,low,Fair,No,Yes,medium,low,high,medium,medium,8
+980,Tornado,2024-09-12,38.32265542737001,-110.46606764701762,Phoenix,299,118,47,788,medium,long,medium,high,Fair,No,No,low,high,high,high,low,8
+981,Earthquake,2024-09-17,44.11363649300536,-94.07459783841811,New Orleans,495,917,20,1640,fast,long,high,medium,Poor,No,No,high,high,medium,medium,low,7
+982,Earthquake,2024-09-23,30.566565241864325,-96.45654160369352,Alaska,125,346,82,1581,slow,short,high,high,Good,Yes,Yes,medium,low,medium,low,low,6
+983,Earthquake,2024-09-28,26.842007263647893,-87.1762316043554,New Orleans,122,109,62,809,slow,long,low,medium,Good,No,Yes,medium,high,medium,medium,medium,5
+984,Flood,2024-10-04,47.300220893546566,-78.70977776185114,Phoenix,170,535,73,1691,fast,medium,medium,medium,Fair,Yes,Yes,medium,high,high,low,low,7
+985,Flood,2024-10-09,27.54357249100365,-88.67531593227463,New Orleans,62,210,42,1343,medium,long,medium,high,Good,No,Yes,low,medium,high,high,medium,5
+986,Flood,2024-10-15,46.95620735171808,-124.04955357973098,Phoenix,52,401,10,611,slow,long,low,high,Fair,Yes,Yes,high,medium,medium,low,high,8
+987,Tornado,2024-10-20,31.40812419966727,-103.28751684425988,Phoenix,57,228,31,725,slow,long,low,high,Poor,Yes,No,low,high,high,medium,high,6
+988,Earthquake,2024-10-26,44.20778492887328,-90.28835701858334,California,211,731,19,1119,medium,long,high,medium,Good,Yes,No,medium,medium,medium,high,low,5
+989,Flood,2024-10-31,31.30632302211732,-88.81940327569023,Phoenix,174,863,25,1744,slow,long,high,high,Good,No,No,high,medium,low,low,high,8
+990,Earthquake,2024-11-06,26.56464905102243,-70.59890558628211,New Orleans,277,934,84,747,medium,long,high,medium,Poor,Yes,Yes,medium,high,high,high,high,9
+991,Hurricane,2024-11-11,44.06542124445329,-115.12584241616874,Austin,95,321,20,1699,slow,long,high,low,Fair,Yes,No,high,low,medium,medium,low,8
+992,Tornado,2024-11-17,29.53004450593067,-87.70399133934514,New Orleans,235,801,46,1921,medium,medium,low,medium,Good,No,Yes,medium,medium,high,medium,low,5
+993,Hurricane,2024-11-22,30.132380882253383,-76.54786748232775,Phoenix,452,347,34,1754,fast,medium,high,high,Good,No,No,high,medium,high,high,medium,7
+994,Tornado,2024-11-28,44.57224553829357,-92.1276194335782,Phoenix,68,312,65,1950,medium,long,low,medium,Good,No,No,medium,medium,high,medium,high,6
+995,Earthquake,2024-12-03,38.99796535850465,-107.78164141331212,Houston,308,668,32,1631,slow,long,low,high,Good,Yes,Yes,medium,high,medium,high,low,5
+996,Tornado,2024-12-09,36.058738835436536,-100.90975592895396,California,294,346,65,1246,slow,short,medium,high,Good,No,No,medium,medium,low,high,high,9
+997,Tornado,2024-12-14,48.62666080060572,-94.72397401349264,Phoenix,459,436,39,671,medium,long,high,high,Fair,Yes,Yes,medium,medium,medium,medium,high,9
+998,Hurricane,2024-12-20,39.74984310960228,-78.56155446934434,New Orleans,401,748,22,1050,medium,medium,low,medium,Good,Yes,No,high,low,high,low,high,6
+999,Flood,2024-12-25,26.15655849712301,-120.448105472667,Alaska,470,385,82,1829,slow,medium,low,low,Poor,No,Yes,high,medium,medium,low,low,7
+1000,Earthquake,2024-12-31,28.088458954762487,-92.7782985401905,California,126,435,80,1967,medium,long,high,medium,Poor,Yes,No,high,medium,low,low,high,7
