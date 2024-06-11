@@ -97,3 +97,35 @@ aprox_inference = ApproxInference(model)
 marginal_probability_approx = aprox_inference.query(variables=['DisasterType'], evidence={'PreparednessTraining': 'Yes'})
 
 print("Approximate Inference:\n", marginal_probability_approx)
+
+#¿Cuál es la probabilidad del riesgo del sistema si CommunityAwareness ocurre?
+# Variable Elimination
+ve_inference2 = VariableElimination(model)
+marginal_probability_ve2 = ve_inference2.query(variables=['DisasterType'], evidence={'CommunityAwareness': 'Yes'})
+
+# Belief Propagation
+bp_inference2 = BeliefPropagation(model)
+marginal_probability_bp2 = bp_inference2.query(variables=['DisasterType'], evidence={'CommunityAwareness': 'Yes'})
+
+# Causal inference
+inference2 = CausalInference(model)
+marginal_probability_ca2 = inference2.query(variables=['DisasterType'], evidence={'CommunityAwareness': 'Yes'})
+
+print("Variable Elimination:\n", marginal_probability_ve2)
+print("Belief Propagation:\n", marginal_probability_bp2)
+print("Causal Inference:\n", marginal_probability_ca2)
+
+#Algoritmos de inferencia aproximada
+# Sampling Importance Resampling (SIR)
+sampling2 = BayesianModelSampling(model)
+samples2 = sampling2.likelihood_weighted_sample(size=1000, evidence=[('CommunityAwareness', 'Yes')])
+approximate_probability_sir2 = samples2['DisasterType'].value_counts(normalize=True)
+
+print("Sampling Importance Resampling (SIR):\n", approximate_probability_sir2)
+
+#ApproxInference
+aprox_inference2 = ApproxInference(model)
+marginal_probability_approx2 = aprox_inference2.query(variables=['DisasterType'], evidence={'CommunityAwareness': 'Yes'})
+
+print("Approximate Inference:\n", marginal_probability_approx2)
+
